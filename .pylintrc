@@ -1,0 +1,36 @@
+[MASTER]
+load-plugins=pylint_odoo
+score=n
+
+[ODOOLINT]
+manifest-required-authors=PR Consulting
+manifest-required-website=https://www.prconsulting.eu
+manifest-required-keys=name,version,author,license,description,summary,website,category
+
+[MESSAGES CONTROL]
+disable=all
+
+enable=
+    anomalous-backslash-in-string,
+    assignment-from-none,
+    attribute-deprecated,
+    dangerous-default-value,
+    duplicate-key,
+    eval-used,
+    manifest-required-author,
+    manifest-required-key,
+    method-compute,
+    print-used,
+    redundant-keyword-arg,
+    reimported,
+    return-in-init,
+    sql-injection,
+    too-few-format-args,
+    translation-field,
+    translation-required,
+    unreachable
+
+[REPORTS]
+msg-template={path}:{line}: [{msg_id}({symbol}), {obj}] {msg}
+output-format=colorized
+reports=no
