@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- ========================================================= -->
+    <!-- CATEGORIA / SEZIONE 4                                     -->
+    <!-- ========================================================= -->
+
+    <record id="categoria_want_to_go_further" model="slide.slide">
+
+        <field name="name">Want to go further?</field>
+
+        <field name="channel_id"
+            ref="partner_bootcamp" />
+
+        <field name="is_category">True</field>
+
+        <field name="sequence">29</field>
+
+    </record>
+
+    <!-- ========================================================= -->
+    <!-- SESSIONE 26                                               -->
+    <!-- ========================================================= -->
+
+    <record id="slide_sessione_26" model="slide.slide">
+
+        <field name="name">Mind Maps, PKB, Documentation &amp; Forum</field>
+
+        <field name="channel_id"
+            ref="partner_bootcamp" />
+
+        <field name="slide_category">article</field>
+
+        <field name="sequence">30</field>
+
+        <field name="is_published">True</field>
+
+        <field name="html_content" type="html">
+            <div
+                class="o_wslides_fs_content align-items-stretch justify-content-center d-flex flex-grow-1 order-2">
+                <div class="o_wslide_fs_article_content bg-white block w-100 overflow-auto p-3">
+                    <section class="s_numbers pt24 pb24 o_colored_level undefined"
+                        data-name="Numbers" style="background-image: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="text-center pt24 pb24 o_colored_level col-lg-6">
+                                    <span class="s_number display-4">
+                                        <font class="text-o-color-1">45 min</font>
+                                    </span>
+                                    <h6 class="o_default_snippet_text">
+                                        <font class="  text-o-color-1">preparation</font>
+                                    </h6>
+                                </div>
+                                <div class="text-center pt24 pb24 o_colored_level col-lg-6">
+                                    <span class="s_number display-4">
+                                        <font class="text-o-color-2">30 min</font>
+                                    </span>
+                                    <h6 class="o_default_snippet_text">
+                                        <font class="  text-o-color-1">with your onboarder</font>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="s_title pt40 o_colored_level undefined o_cc o_cc1 pb0"
+                        data-name="The Virtual Roadshow You Shouldn&amp;#x27;t Miss"
+                        style="background-image: none;">
+                        <div class="s_allow_columns container">
+                            <h1 style="text-align: center;">
+                                <font style="font-size: 48px;" class="text-o-color-2">Partnership
+                                    Knowledge Base, Documentation &amp; Forum: all the extra
+                                    resources you need</font>
+                            </h1>
+                        </div>
+                    </section>
+                    <section class="s_text_block pt40 pb40 o_colored_level undefined o_cc o_cc1"
+                        data-name="Introduction text">
+                        <div class="s_allow_columns container">
+                            <p>
+                                <span style="font-weight: bolder;">
+                                    <font style="font-size: 18px;">Why this task?</font>
+                                </span>
+                            </p>
+                            <p style="text-align: justify;">
+                                If you have come this far, you must have seen that we have got
+                                lots of documentation in this course. However, while this course is
+                                specifically about your growth as a Project Lead, we are maybe
+                                a bit "light" on some aspects, like the commercial ones and how we
+                                communicate together. If you want to discover more of these aspects
+                                and dig deeper in how we collaborate, this task is for you.
+
+                            </p>
+                            <p style="text-align: justify;">
+                                <span style="font-weight: bolder;">
+                                    <font style="font-size: 18px;">How to handle it?</font>
+                                </span>
+                            </p>
+                            <p style="text-align: justify;">
+                                We suggest that you have, at the very least, a quick look at these
+                                sources of information. We guarantee that there isn’t a single
+                                project where you don’t need at least one of these life savers.
+
+                            </p>
+                            <p>
+                                <u>
+                                    <strong>Mind Maps:</strong>
+                                </u>
+                            </p>
+                            <p style="text-align: justify;">
+                                When you start your kick-off meeting, and during the whole
+                                implementation, the customer will give you a lot of information
+                                about their business, their requirements, and their constraints.
+                                Understanding what the customer is doing requires some deep business
+                                knowledge that you probably do not have yet, and to a certain
+                                extent, you will never have as it is impossible to know everything
+                                about every business. To avoid getting lost during the process and
+                                to help you structure the discussions, the expert team* has created
+                                some tools to help you better analyze and understand the customer's
+                                business. Those tools are called the "Mind Map" and currently cover
+                                six topics:</p>
+                            <ul>
+                                <li>Logistic</li>
+                                <li>Accounting</li>
+                                <li>Manufacturing</li>
+                                <li>Website / ecommerce</li>
+                                <li>Marketing</li>
+                                <li>Point of Sales</li>
+                            </ul>
+                            <p style="text-align: justify;">
+
+                                By using this tool:</p>
+                            <ul>
+                                <li>You will be able to approach the Kick-off Phase with
+                                    confidence as the Mind Maps will help to structure the analysis
+                                    and not forgetting important questions to ask to your customer.</li>
+                                <li>You will be able to better phase the implementation.</li>
+                                <li>You will receive guidance to properly implement an application
+                                    without forgetting important configurations or recommendations.</li>
+                                <li>You will increase your Product Knowledge application by
+                                    application.</li>
+                            </ul>
+                            <p style="text-align: justify;"> In other terms, you will implement the
+                                project efficiently, deliver it quickly, and avoid mistakes that
+                                could lead to frustration for the customer, and potential project
+                                failure. But most importantly it will give you more confidence in
+                                the first steps of any implementation. <br /></p>
+                            <p>
+                                <font class="text-o-color-1">
+                                    <b style="font-weight: bolder">The Mind maps aim to:</b>
+                                </font>
+                            </p>
+                            <ul>
+                                <li>Cover most configuration decisions you have to make with your
+                                    customer and explain the business logic behind them.</li>
+                                <li>Give you the best practices for each application.</li>
+                                <li>Warn you about possible traps to avoid making long-lasting
+                                    mistakes.</li>
+                                <li>Act as a minimum viable configuration checklist.</li>
+                            </ul>
+                            <p style="text-align: justify;"> Since those aspects are really broad,
+                                the Mind Maps cannot be exhaustive. You will have to use critical
+                                thinking and your own experience to cover all the points to be
+                                discussed during the kick-off meeting, and what should be
+                                implemented. Hence the Mind Maps can never be a substitute for the
+                                Business Analysis, but should be used either as a first step in this
+                                process or as an additional tool to improve this skill. <br /></p>
+                            <p>
+                                <span style="font-weight: bolder;" class="text-o-color-1">How to
+                                    read and naviguate mindmaps?</span>
+                                <br />
+                                <br />
+                            </p>
+                            <p>Mindmaps are split into four main sections:</p>
+                            <ul>
+                                <li>Generic Principles: the main commandments to keep in mind at all
+                                    the time. For instance, the localization setting when you
+                                    implement Accounting.</li>
+                                <li>Master Data: the configuration points and their associated
+                                    recommendations.</li>
+                                <li>Basic Flows: the flows to review for sure with your customer
+                                    (and train them accordingly). For instance, the pricelist
+                                    in the e-commerce flow.</li>
+                                <li>Advanced Flows: the most advanced flows, usually to be kept for
+                                    a later stage. For instance, the Asset management in Accounting.</li>
+                            </ul>
+                            <p style="text-align: justify;">
+                                Then, within each section &gt; sub-topic &gt; particular node, you
+                                can refer to the following legend to navigate through the
+                                information provided:</p>
+                            <ul>
+                                <li>Section</li>
+                                <li>Subtopic</li>
+                                <li>Particular node</li>
+                                <ul>
+                                    <li>
+                                        <font style="color: rgb(18, 18, 231)">optional in general,
+                                            unless... (thumbs down)</font>
+                                    </li>
+                                    <li>
+                                        <font style="color: rgb(241, 28, 28)">must do or mandatory
+                                            IF thumbs up</font>
+                                    </li>
+                                    <li>
+                                        <font style="color: rgb(58, 206, 13)">choices to make (check
+                                            mark)</font>
+                                    </li>
+                                    <ul>
+                                        <li>
+                                            <font style="color: rgb(233, 114, 88)">business need or
+                                                configuration reason (question mark)</font>
+                                            <br />
+                                        </li>
+                                        <li>
+                                            <font style="color: rgba(52, 58, 64, 0.88)">examples
+                                                (inverted commas)</font>
+                                            <br />
+                                        </li>
+                                        <li>
+                                            <font style="color: rgb(38, 133, 14)">expert's tips
+                                                (thinking face)</font>
+                                        </li>
+                                        <li>
+                                            <font style="color: rgb(217, 118, 118)">warnings or
+                                                "traps to avoid" (exclamation mark)</font>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </ul>
+                            <p>
+                                <em>
+                                    <strong>
+                                        <font class="text-o-color-1">Here you will find our mind
+                                            maps</font>
+                                    </strong>
+                                </em>
+                            </p>
+                            <ul>
+                                <li>
+                                    <a href="https://mm.tt/1854986769?t=NPOVTvwzqZ"
+                                        data-bs-original-title="" title="" target="_blank">
+                                        <strong>Accounting</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://mm.tt/1854977642?t=YF4LNlvzVp"
+                                        data-bs-original-title="" title="">
+                                        <strong>Manufacturing</strong>
+                                    </a>
+                                    <br />
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.mindmeister.com/map/2183549854?t=7nvtntEXzi"
+                                        data-bs-original-title="" title="" target="_blank">
+                                        <strong>Inventory &amp; purchase</strong>
+                                    </a>
+                                    <br />
+                                </li>
+                                <li>
+                                    <a href="https://mm.tt/1826851157?t=1S5aHYKYsH"
+                                        data-bs-original-title="" title="">
+                                        <strong>Website &amp; ecommerce</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.mindmeister.com/1865139917?t=TiqlRXXkR9"
+                                        data-bs-original-title="" title="" target="_blank">
+                                        <strong>Marketing</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.mindmeister.com/map/2312184980?t=FDntaaaoAP"
+                                        data-bs-original-title="" title=""
+                                        aria-describedby="popover664054">
+                                        <strong>POS</strong>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p style="text-align: justify;">
+                                <u>Partnership Knowledge Base:</u>
+                            </p>
+                            <p style="text-align: justify;">Have a look at the <a
+                                    href="https://www.odoo.com/it_IT/slides/partnership-knowledge-base-39"
+                                    target="_blank" data-bs-original-title="" title="">Partnership
+                                knowledge base</a>. This partner-dedicated course is all about
+                                giving you more weapons when it comes to collaborating with Odoo:</p>
+                            <ul>
+                                <li>How to get some help from my account manager?</li>
+                                <li>Which are the advantages of Odoo Enterprise vs Odoo community?</li>
+                                <li>Which extra services Odoo can propose in order to help me put my
+                                    client in production?</li>
+                                <li>How to use the partner dashboards?</li>
+                            </ul>
+                            <p style="text-align: justify;">
+                                These are some of the questions that are answered and will help
+                                you get started on the track of a successful partnership.
+
+                            </p>
+                            <p style="text-align: justify;">
+                                <u>Documentation:</u>
+                            </p>
+                            <p style="text-align: justify;">The root of all our functional
+                                documentation <a href="https://www.odoo.com/documentation/master/"
+                                    data-bs-original-title="" title="" target="_blank">can be found
+                                at the following address</a>, but do not forget that you will find
+                                the <a
+                                    href="https://www.odoo.com/documentation/master/developer.html"
+                                    target="_blank"
+                                    data-bs-original-title="" title="">tech doc</a> (including
+                                installation and API doc) next to it in case you need it. While the
+                                doc does not cover ALL the functional nor technical aspects, it has
+                                been growing in size and popularity over the years and is more
+                                reliable than ever. </p>
+                            <p style="text-align: justify;">If you wish to contribute, you can do it
+                                in several ways. You can first offer your own pull request on the <a
+                                    href="https://github.com/odoo/documentation-user"
+                                    target="_blank" data-bs-original-title="" title="">GitHub
+                                repository</a>, if you know how to do it. If you do not, do not
+                                hesitate to propose some improvement on that doc when discussing
+                                this course item with your Odoo Onboarder. If we receive a lot of
+                                similar demands, there are high chances that the missing
+                                documentation will be added soon.</p>
+                            <p style="text-align: justify;">
+                                <u>Forum:</u>
+                                <a
+                                    href="https://www.odoo.com/fr_FR/forum/aide-1"
+                                    target="_blank"
+                                    data-bs-original-title="" title=""
+                                    aria-describedby="popover204403">The forum</a>
+                            </p>
+                            <p>is an unstructured StackOverflow-like place where you will find an
+                                answer to very specific questions. If you find a blocking point,
+                                chances are high that someone already fixed it and posted a comment
+                                on somebody else's question in the Forum. Navigate through it with
+                                the different search options, and if you cannot find what you need,
+                                Google it. Google very often redirects to our Odoo forum if you have
+                                "odoo" next to your tech or functional question.</p>
+                            <p>In addition to every public comment on the Forum, you will find a lot
+                                of comments of our consultants. You will find superstars like <a>Ray
+                                Carnes</a>, our functional living legend at Odoo, but also lots of
+                                questions asked by our own employees and answered by some other,
+                                more senior, Odoo employees. While it might seem strange, we decided
+                                a few months ago to make all of our internal questions public. So
+                                when an Odoo employee has a question for one of their colleagues,
+                                they are required to put it on the forum and ask for help so that it
+                                does not only gets solved for them, <b>but for all the Odoo
+                                community.</b></p>
+                            <p>Do not hesitate to follow the "Quickstart" tag to follow all the
+                                question posted by an Odoo employee. These are Odoo verified
+                                answers, so you can trust them.</p>
+                            <br />
+                            <u>Odoo Channel on youtube: </u>
+                            <br />
+                            <p style="text-align: justify;">
+                                <a href="https://www.youtube.com/@Odoo" data-bs-original-title=""
+                                    title="">Link to the channel</a>
+                            </p>
+                            <p>On this channel, you'll find all the videos that we record internally
+                                at Odoo. Topics range from ‘what's new’ in a specific app, to the
+                                explanation of a complex flows.</p>
+                            <p>If you are a more visual learner and you have a question, don't
+                                hesitate to check the channel to see if your answer isn't in one of
+                                the thousands of videos we have.</p>
+                            <p style="text-align: justify;">
+                                <u>
+                                    <strong>Odoo on X (Formerly Twitter):</strong>
+                                </u>
+                            </p>
+                            <p style="text-align: justify;">If you like to be updated on the latest
+                                and general news about Odoo, follow us on <a
+                                    href="https://x.com/Odoo">X</a> (formerly Twitter).</p>
+                            <p style="text-align: justify;">
+                                <span style="font-weight: bolder;">
+                                    <font style="font-size: 18px;">What is this task about?</font>
+                                </span>
+                            </p>
+                            <p style="text-align: justify;">
+                                This task is about making you see other important references and
+                                documentation sources directly available to you. These three sources
+                                are a concentration of information and should be essential tools in
+                                your toolbox.
+
+                            </p>
+                            <p style="text-align: justify;">
+                                <span style="font-weight: bolder;">
+                                    <font style="font-size: 18px;">Output</font>
+                                </span>
+                            </p>
+                            <p style="text-align: justify;">
+                                You are now made aware of these three very important sources of
+                                extra information at Odoo and are better prepared to face your
+                                client's needs. Do not hesitate to add your comments in both the
+                                Partnership Knowledge Base (PKB) and the forum, or to upvote
+                                answers, you found useful on the forum.</p>
+                            <p>
+                                <br />
+                            </p>
+                            <div class="s_alert s_alert_md alert-info w-100 clearfix alert"
+                                data-name="Alert">
+                                <i class="fa fa-2x fa-info-circle s_alert_icon"></i>
+                                <div class="s_alert_content">
+                                    <p>Don't hesitate to comment this section by clicking on the
+                                        "comments" below. <br />PS : You need to exit the full
+                                        screen mode of the elearning for this.<br /></p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </field>
+    </record>
+
+    <!-- ========================================================= -->
+    <!-- SESSIONE 26                                               -->
+    <!-- ========================================================= -->
+
+    <record id="slide_sessione_27" model="slide.slide">
+
+        <field name="name">Use case 4: POS</field>
+
+        <field name="channel_id"
+            ref="partner_bootcamp" />
+
+        <field name="slide_category">article</field>
+
+        <field name="sequence">31</field>
+
+        <field name="is_published">True</field>
+
+        <field name="html_content" type="html">
+            <div
+                class="o_wslides_fs_content align-items-stretch justify-content-center d-flex flex-grow-1 order-2">
+                <div class="o_wslide_fs_article_content bg-white block w-100 overflow-auto p-3">
+                    <section class="s_numbers pt24 pb24 o_colored_level undefined"
+                        data-name="Numbers" style="background-image: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="text-center pt24 pb24 o_colored_level col-lg-6">
+                                    <span class="s_number display-4">
+                                        <font class="text-o-color-1">90 min</font>
+                                    </span>
+                                    <h6 class="o_default_snippet_text">
+                                        <font class="  text-o-color-1">preparation</font>
+                                    </h6>
+                                </div>
+                                <div class="text-center pt24 pb24 o_colored_level col-lg-6">
+                                    <span class="s_number display-4">
+                                        <font class="text-alpha">60 min</font>
+                                    </span>
+                                    <h6>
+                                        <font class="  text-alpha">with your onboarder</font>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="s_title pt40 o_colored_level undefined o_cc o_cc1 pb0"
+                        data-name="The Virtual Roadshow You Shouldn&amp;#x27;t Miss">
+                        <div class="s_allow_columns container">
+                            <h1 style="text-align: center;">
+                                <font class="text-o-color-2" style="font-size: 48px;">Use case 4:
+                                    POS</font>
+                            </h1>
+                        </div>
+                    </section>
+                    <section class="s_text_block pt40 pb40 o_colored_level undefined o_cc o_cc1"
+                        data-name="Introduction text">
+                        <div class="s_allow_columns container">
+                            <p>
+                                <span style="font-weight: bolder;">
+                                    <font style="font-size: 18px;">Why this task?</font>
+                                </span>
+                            </p>
+                            <p style="text-align: justify;">
+                                <b style="font-weight: 400;">
+                                    Implementing the POS (Point of Sales) application is never easy
+                                    as it requires knowledge about hardware and infrastructure,
+                                    regulations (black box)... This use case aims to give you a
+                                    better understanding of the module but also on the way to deal
+                                    with all the external requirements that are part of the proper
+                                    implementation of this module.
+
+                                </b>
+                                <span style="font-weight: 400;"> </span>
+                            </p>
+                            <p>
+                                <br />
+                            </p>
+                            <p style="text-align: justify;">
+                                <span style="font-weight: bolder;">
+                                    <font style="font-size: 18px;">How to handle it?
+</font>
+                                </span>
+                            </p>
+                            <p>Before the session:</p>
+                            <ul>
+                                <li>Create a database and make the use case.</li>
+                                <li>If you have the hardware: Install an IOT BOX and print a ticket
+                                    as evidence you connected a printer with the IOT box.</li>
+                            </ul>
+                            <p>During the session (with the consultant):</p>
+                            <ul>
+                                <li>Ask your questions about the case.</li>
+                                <li>Discuss your answers.</li>
+                            </ul>
+                            <p style="text-align: justify;">
+                                <span style="font-weight: bolder;">
+                                    <font style="font-size: 18px;">
+                                        <br />What is this task about? </font>
+                                </span>
+                            </p>
+                            <p style="text-align: justify;"> The complexity of the sales at the
+                                counter hides more than you could think of. This task will help you
+                                to have a first look at the complexity and constraints of the POS
+                                implementation before having your first project. <br /></p>
+                            <p>
+                                <br />
+                            </p>
+                            <section class="s_title o_colored_level pb0 pt0"
+                                style="color: rgb(33, 37, 41);"
+                                data-name="The Virtual Roadshow You Shouldn&amp;#x27;t Miss">
+                                <div class="s_allow_columns container pb0">
+                                    <h1 style="text-align: center;" class="pb8">
+                                        <font class="text-o-color-2" style="font-size: 18px;">The
+                                            use case</font>
+                                    </h1>
+                                </div>
+                            </section>
+                            <ul style="color: rgb(33, 37, 41);"></ul>
+                            <p>
+                                <font class="text-900"></font>
+                            </p>
+                            <section class="s_text_block pt40 o_colored_level undefined pb0"
+                                data-name="Introduction text">
+                                <div class="s_allow_columns o_container_small" style="width: 720px;">
+                                    <p style="color: rgb(33, 37, 41); text-align: justify;">
+                                        <font class="text-o-color-2" style="font-size: 18px;">
+                                            Introduction</font>
+                                    </p>
+                                    <p></p>
+                                    <p>The purpose of this use case is to simulate a kick-off call
+                                        with the owner of a restaurant: Pépé Café. He just purchased
+                                        50 hours of consulting and is very excited about launching
+                                        Odoo in his restaurant.</p>
+                                    <p>He purchased the following apps:</p>
+                                    <ul>
+                                        <li>Sales</li>
+                                        <li>PoS</li>
+                                        <li>Invoicing</li>
+                                        <li>Inventory</li>
+                                    </ul>
+                                    <p>After having introduced yourself and the methodology, your
+                                        SPOC starts to explain his business.</p>
+                                    <div>
+                                        <br />
+                                    </div>
+                                    <p style="text-align: justify;">
+                                        <font color="#875a7b">
+                                            <span style="font-size: 18px;">General Business</span>
+                                        </font>
+                                        <br />
+                                    </p>
+                                    <p>In addition to our catering service, we offer our customers
+                                        the possibility to eat in our shop. Concretely, we have a
+                                        display case with the daily meals we prepare. We have a
+                                        fridge where we stock all our orders. We also have some
+                                        tables where our customers can eat: 6 tables close to our
+                                        display case and 3 tables on our terrace. </p>
+                                    <p>In summary, we offer 3 main services to our customers : </p>
+                                    <ul>
+                                        <li>Eat in our shop</li>
+                                        <li>Purchase and direct pickup</li>
+                                        <li>Purchase and later shipping</li>
+                                    </ul>
+                                    <p>I will now give you more information about our need for each
+                                        service.</p>
+                                    <p style="text-align: justify;">
+                                        <span style="font-size: 18px;">
+                                            <font class="text-o-color-2">1. Eat in our shop</font>
+                                        </span>
+                                    </p>
+                                    <p>Customers can eat our daily meals at our shop’s tables.</p>
+                                    <ul>
+                                        <li>As previously mentioned, we have 6 tables inside and 3
+                                            tables on the terrace. We have 4 product categories:
+                                            drinks, appetizers, main courses, and desserts. We want
+                                            our waiter to find the tables and meals as easily as
+                                            possible. We would like to make it as visual as
+                                            possible. Could we add pictures to make it clearer?</li>
+                                        <li>I want my waiter to use a tablet to book the orders. He
+                                            also must be able to put a note in the kitchen to keep
+                                            track of information for each meal.</li>
+                                        <li>We have wine and beer recommendations for every meal we
+                                            sell. We want our waiter to easily have access to them
+                                            to give the best service to our customers. We have a
+                                            large wine and beer panel, and we do not want him to
+                                            lose much time in searching manually for the beverages.
+                                            Can we add this information for each meal? Do you have a
+                                            tool to select the recommended beverages easily?</li>
+                                        <li>Sometimes, customers want to split the bills. You know,
+                                            nobody wants to pay for the entire table... Sometimes
+                                            they want to pay for what they ate, sometimes they just
+                                            want to divide by the number of guests. I want a tool
+                                            that allows us to easily split the bill in both
+                                            ways. </li>
+                                        <li>I don’t want my waiter to lose time to find who ordered
+                                            something. When a table wants to pay the bill, I want my
+                                            waiter to be able to directly check the total. </li>
+                                        <li>My waiter often receives tips. How can he handle them?</li>
+                                        <li>In my shop, I also would like my customers to order by
+                                            themselves but only for the category drinks &amp; food.
+                                            I would like my food category to be displayed at first
+                                            place</li>
+                                        <li>I would like my customers to be able to book a table but
+                                            only for inside floor (6 tables of 4-person capacity).
+                                            How can I see the bookings? </li>
+                                        <li>I have 5 students working at the same time in the same
+                                            computer, is it possible not to have 5 users for them? I
+                                            would like them to connect through a code to recognize
+                                            them and I have a very high turnover because they are
+                                            students. I would like only the manager to be able to
+                                            close the session, is it possible? </li>
+                                        <li>I have a menu. Can I realize it in Odoo? I would
+                                            also like to let the choice for the sauces but they can
+                                            select several sauces, how can I do that? How can I
+                                            communicate with my kitchen ? Can I see if the order is
+                                            ready or not? Can I choose which products are sent to
+                                            the bar and which ones to the kitchen?</li>
+                                        <li>People would be allowed to order through a kiosk. I
+                                            would like customers to be able to take out but in my
+                                            country, the tax applied is different (in Belgium, tax
+                                            is 21% when you eat in the restaurant and only 6% when
+                                            you take out), how to apply it in a specific order?<br /></li>
+                                    </ul>
+                                    <p>
+                                        <span style="font-size: 18px;">
+                                            <font class="text-o-color-2">2. Purchase and direct
+                                                pickup</font>
+                                        </span>
+                                    </p>
+                                    <p>They can buy meals from our display case and take them
+                                        directly back home.</p>
+                                    <ul>
+                                        <li>How can I handle those orders with the POS? These
+                                            customers are not eating at a table but I do not want to
+                                            use another point of sale for these kinds of sales.</li>
+                                        <li>As you probably know, the tax they pay is lower if they
+                                            order take-away. The final price is the same for me, but
+                                            the tax is different. How could I handle this?</li>
+                                        <li>A lot of my customers are coming during their lunchtime
+                                            as they are working in the neighborhood. It happens that
+                                            a customer forgets to ask for the ticket to be
+                                            reimbursed by their employer. I want to be able to print
+                                            tickets until 1 week after the day of the order. For
+                                            example, a customer came to the restaurant this Monday,
+                                            and when they got back to the office, they realized that
+                                            they forgot to ask for their ticket. They came back to
+                                            the restaurant on the next Monday and asked me to print
+                                            out their ticket from the previous time. How can I do
+                                            this? Could I also reprint an invoice?</li>
+                                    </ul>
+                                    <p>
+                                        <span style="font-size: 18px;">
+                                            <font class="text-o-color-2">3. Purchase and later
+                                                shipping</font>
+                                        </span>
+                                    </p>
+                                    <p>They can order meals in advance and be delivered later. This
+                                        option is commonly used for birthdays or business events. We
+                                        deliver food and beverages. We have a large panel of really
+                                        good wine…</p>
+                                    <ul>
+                                        <li>For this service, clients are used to reaching us by
+                                            phone or email. Those orders are generally quite long.
+                                            We do not take them in the display case, we would create
+                                            too much queue. They explain what they want and when
+                                            they want to be delivered. If it’s a business party, it
+                                            is on the date of the event. </li>
+                                        <li>To confirm the order, we ask them to pay a 30% down
+                                            payment directly in our shop. The delivery boy will ask
+                                            them to pay for the rest at the moment he ships the
+                                            order. They must be able to ask for an invoice because
+                                            we also work for companies directly. </li>
+                                        <li>Talking about payments: we have different payment
+                                            methods. In the shop, we use cash and Adyen. When we do
+                                            the deliveries, the client can pay by cash or by SumpUp
+                                            Air (Portable Payment Terminal). Are our payment
+                                            terminals integrated with Odoo? I saw on your website
+                                            that you have some kind of hardware to connect all
+                                            devices to the point of sale. Is it mandatory to use it
+                                            with my payment terminal? What about other devices?</li>
+                                        <li>These kinds of customers are not always drinking
+                                            everything we sell. We usually offer to refund each
+                                            bottle that has not been opened. How could I handle
+                                            this?</li>
+                                    </ul>
+                                    <p>
+                                        <span style="font-size: 18px;">
+                                            <font class="text-o-color-2">Other needs</font>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span style="font-weight: bolder;">Cash in/out</span>
+                                    </p>
+                                    <p style="text-align: justify;">
+                                        <b style="font-weight: 400;">
+                                            We sometimes have to take cash from our cash register
+                                            during the day. For example: to buy some cleaning
+                                            products. How can we easily do it? I do not want to lose
+                                            time closing my POS session.
+
+                                        </b>
+                                        <br />
+                                    </p>
+                                    <p>
+                                        <span style="font-weight: bolder;">Customer loyalty</span>
+                                    </p>
+                                    <p>
+                                        <b></b>
+                                    </p>
+                                    <p>We always seek to improve our customers' loyalty. Indeed, we
+                                        have decided to have a new loyalty program implemented
+                                        within Odoo. We are looking for a scoring system based on
+                                        the total amount spent by our customers and we would like to
+                                        assess one point for each euro spent and to reward the
+                                        customer with a discount of 20 euros on the next dinner when
+                                        150 points are reached. Moreover, I want a monthly report to
+                                        evaluate the amount of total points scored by each customer.
+                                        How can I achieve this? </p>
+                                    <p>Christmas is good for our business because, you know… But as
+                                        you may know, the month after is always more complicated.
+                                        That’s why, every year in January, we propose a 10% discount
+                                        to our customers if they use a specific promotion code that
+                                        we sent by email before. Is it possible to use such a
+                                        feature?</p>
+                                    <p>We give the possibility to buy gift cards for family and
+                                        friends. Those gift cards come from a supplier, so they come
+                                        with a previously defined code and amounts. How can I enter
+                                        those cards in the database?</p>
+                                    <div>
+                                        <br />
+                                    </div>
+                                </div>
+                            </section>
+                            <p>
+                                <span style="font-weight: bolder;">
+                                    <font style="font-size: 18px;">
+                                        <br />Output </font>
+                                </span>
+                                <br />
+                            </p>
+                            <p>With this task you should be able to: </p>
+                            <ul>
+                                <li>Know the basic features and constraints of the POS application.</li>
+                                <li>Know how to install the IOT BOX.</li>
+                                <li>Handle different business constraints for a shop/restaurant.</li>
+                            </ul>
+                            <p>You should have a better overview of what it requires to think of
+                                when implementing the POS. You should also have a better idea of the
+                                configuration options of the POS.</p>
+                            <p>
+                                <br />
+                            </p>
+                            <div class="s_alert s_alert_md alert-info w-100 clearfix alert"
+                                style="font-size: 15px;" data-name="Alert">
+                                <span class="fa fa-2x fa-info-circle s_alert_icon"></span>
+                                <div class="s_alert_content">
+                                    <p>Don't hesitate to comment this section by clicking on the
+                                        "comments" below. <br />PS : You need to exit the full
+                                        screen mode of the elearning for this.<br /></p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </field>
+    </record>
+</odoo>

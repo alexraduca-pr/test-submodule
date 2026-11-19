@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- ========================================================= -->
+    <!-- CHIAMATA A FUNZIONE CHE RISOLVE RIFERIMENTI CIRCOLARI     -->
+    <!-- ========================================================= -->
+
+    <function model="slide.slide" name="_resolve_placeholder_links" />
+</odoo>

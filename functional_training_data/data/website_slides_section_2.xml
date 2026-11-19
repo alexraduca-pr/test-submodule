@@ -1,0 +1,2643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- ========================================================= -->
+    <!-- CATEGORIA METODOLOGICA                                    -->
+    <!-- ========================================================= -->
+
+    <record id="categoria_metodologica" model="slide.slide">
+
+        <field name="name">Methodology section</field>
+
+        <field name="channel_id"
+            ref="partner_bootcamp" />
+
+        <field name="is_category">True</field>
+
+        <field name="sequence">10</field>
+
+    </record>
+
+    <!-- ========================================================= -->
+    <!-- SESSIONE 9                                                -->
+    <!-- ========================================================= -->
+
+    <record id="slide_sessione_9" model="slide.slide">
+
+        <field name="name">Session 9 : Project Life Cycle &amp; Introduction to OIM</field>
+
+        <field name="channel_id"
+            ref="partner_bootcamp" />
+
+        <field name="slide_category">article</field>
+
+        <field name="sequence">11</field>
+
+        <field name="is_published">True</field>
+
+        <field name="html_content" type="html">
+            <div
+                class="o_wslides_fs_content align-items-stretch justify-content-center d-flex flex-grow-1 order-2">
+                <div class="o_wslide_fs_article_content bg-white block w-100 overflow-auto p-3">
+                    <section class="s_title pt40 o_colored_level undefined o_cc o_cc1 pb0"
+                        data-name="The Virtual Roadshow You Shouldn&amp;#x27;t Miss">
+                        <div class="s_allow_columns container">
+                            <section data-name="The Virtual Roadshow You Shouldn&amp;#x27;t Miss"
+                                class="s_title o_colored_level undefined o_cc o_cc1 pb0 pt0">
+                                <div class="s_allow_columns container">
+                                    <h1 style="text-align: center;">
+                                        <img
+                                            src="/web/image/%(functional_training_data.attachment_methodo)d"
+                                            alt="" class="img img-fluid o_we_custom_image"
+                                            style="width: 100% !important;"
+                                            data-mimetype="image/webp"
+                                            data-original-id="%(functional_training_data.attachment_methodo)d"
+                                            data-original-src="/web/image/%(functional_training_data.attachment_methodo)d"
+                                            data-mimetype-before-conversion="image/png"
+                                            data-resize-width="NaN" loading="lazy" />
+                                    </h1>
+                                    <p style="text-align: center;" class="lead">
+                                        <br />
+                                    </p>
+                                    <p style="text-align: center;" class="lead">Welcome to the
+                                        methodology section of the PLO. In this section you will
+                                        learn the theory about our Odoo Implementation Methodology,
+                                        but mostly you will practice yourself with a ficticious
+                                        project and your onboarder.</p>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                    <section class="s_text_block o_colored_level pt72 pb0"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="s_allow_columns container">
+                            <h1 style="text-align: center;">
+                                <span style="font-size: 3.5rem;">
+                                    <font class="text-800" color="#875a7b">Project Life Cycle</font>
+                                </span>
+                            </h1>
+                            <p class="lead">A standard implementation for an SME is divided into 3
+                                main phases: Presales phase, Kick-off phase, implementation phase.</p>
+                            <p class="lead">
+                                <img
+                                    src="/web/image/%(functional_training_data.attachment_implem)d"
+                                    alt="" class="img img-fluid o_we_custom_image"
+                                    data-mimetype="image/webp"
+                                    data-original-id="%(functional_training_data.attachment_implem)d"
+                                    data-original-src="/web/image/%(functional_training_data.attachment_implem)d"
+                                    data-mimetype-before-conversion="image/png"
+                                    data-resize-width="NaN" loading="lazy" style="" />
+                            </p>
+                            <p class="lead">
+                                <br />
+                            </p>
+                            <h5>
+                                <font class="text-o-color-2">Presales phase </font>
+                            </h5>
+                            <p class="lead">I<span class="base-fs">t is very important to choose the
+                                right projects from the beginning. Not all projects are good for
+                                    you. Decide what kind of project you want to do (full standard
+                                    or
+                                    not, any type of a​ctivity or a specific industry, a short or
+                                long
+                                    project, etc.).</span></p>
+                            <p class="lead">
+                                <span class="base-fs">From this point on you can organise a
+                                    qualification meeting to prepare a demo for your potential
+                                    future customer. Explore Odoo's industry-specific solutions;
+                                    they could be helpful (<a
+                                        href="https://www.odoo.com/it_IT/trial">
+                                        example</a>).</span>
+                            </p>
+                            <p>
+                                <br />
+                            </p>
+                            <h5>
+                                <font class="text-o-color-2">Kick-off phase</font>
+                            </h5>
+                            <p class="lead">The goal of this phase is to understand the client’s
+                                needs by asking “why” and actively listening. Take the necessary
+                                time and avoid rushing.</p>
+                            <ol>
+                                <li>
+                                    <span class="lead">
+                                        <strong>Internal Kick-off (sales)</strong>: <span
+                                            style="font-size: 1.125rem;">The team first meets with
+                                        the salesperson to understand the sales process, client
+                                        stakeholders, business workflows, and potential risks. This
+                                        ensures better preparation before the external kick-off. The
+                                        salesperson also helps the client prepare, for example, by
+                                        creating flowcharts.</span><br /><br />
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="lead">
+                                        <strong>External Kick-off (customer)</strong>: This meeting
+                                        with the client is divided into three key parts: <ul>
+                                            <p>
+</p>
+                                        </ul></span>
+                                </li>
+                            </ol>
+                            <ul>
+                                <li class="oe-nested">
+                                    <ul>
+                                        <li>
+                                            <span class="lead">
+                                                <strong>Alignment / methodology</strong>: Define the
+                                                way of working, identify the SPoC (Single Point of
+                                                Contact), validate the methodology, and focus on
+                                                priorities for a faster go-live.<br /><br /></span>
+                                        </li>
+                                        <li>
+                                            <span class="lead">
+                                                <strong>Business Analysis</strong>: Analyze current
+                                                workflows ("AS IS") instead of replicating existing
+                                                systems. Guide the client strategically to gather
+                                                key information and identify opportunities early.<br /><br /></span>
+                                        </li>
+                                        <li>
+                                            <span class="lead">
+                                                <strong>Roadmap</strong>: Establish a phased
+                                                implementation plan, prioritizing essential features
+                                                first (MVP principle) to ensure a quick go-live and
+                                                reduce failure risks.</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p class="lead">
+                                <br />
+                            </p>
+                            <h5>
+                                <font class="text-o-color-2">Implementation phase</font>
+                            </h5>
+                            <p class="lead">This phase ensures users are onboarded efficiently, on
+                                time, and within budget by implementing in phases, staying close to
+                                standard configurations, and focusing on essentials (MVP). </p>
+                            <p class="lead">
+                                <strong>The sooner the system is used, the higher the success rate.</strong>
+                            </p>
+                            <ol>
+                                <li>
+                                    <span class="lead">
+                                        <strong>Import Data</strong>: Only import essential data
+                                        (master and ongoing data); avoid historical data to save
+                                        time and cost.<br /><br /></span>
+                                </li>
+                                <li>
+                                    <span class="lead">
+                                        <strong>Implement in Phases</strong>: Prioritize must-haves
+                                        and quick wins, regularly test configurations, and avoid
+                                        unnecessary customizations to reduce costs and ease future
+                                        upgrades.<br /><br /></span>
+                                </li>
+                                <li>
+                                    <span class="lead">
+                                        <strong>Onboard Users</strong>: Ensure users are trained,
+                                        ideally by the SPoC, and monitor their adaptation to the
+                                        system.<br /><br /></span>
+                                </li>
+                                <li>
+                                    <span class="lead">
+                                        <strong>Go Live</strong>: Plan a specific date, test all
+                                        workflows beforehand, and conduct a progress review
+                                        post-launch to assess adoption, improve collaboration, and
+                                        explore next steps.<br /><br /></span>
+                                </li>
+                                <li>
+                                    <span class="lead">
+                                        <strong>Push to Support</strong>: After completion, clients
+                                        contact Odoo support. Proper documentation ensures smooth
+                                        transitions for future improvements or reassignments.</span>
+                                </li>
+                            </ol>
+                            <p class="lead">
+                                <br />
+                            </p>
+                        </div>
+                    </section>
+                    <section class="s_text_block pt40 pb40 o_colored_level"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="container s_allow_columns">
+                            <section data-name="Text" data-snippet="s_text_block"
+                                class="s_text_block pt40 pb40 o_colored_level">
+                                <div class="s_allow_columns container">
+                                    <h1 data-anchor="true" id="table_of_content_heading_1_6"
+                                        style="text-align: center;">
+                                        <font class="text-800">Reference book</font>
+                                    </h1>
+                                    <div data-name="Separator" data-snippet="s_hr"
+                                        class="s_hr pt0 pb56">
+                                        <hr class="w-100 mx-auto" />
+                                    </div>
+                                    <p class="lead">
+                                        <img
+                                            src="/web/image/%(functional_training_data.attachment_implem_methodo)d"
+                                            data-file-name="implem_methodo.png"
+                                            class="img-fluid mx-auto d-block" loading="lazy"
+                                            style="" />
+                                    </p>
+                                    <p class="lead">
+                                        <br />
+                                    </p>
+                                    <p class="lead">For further exploration of this point, you can
+                                        find more information and examples in the book: <a
+                                            href="/web/content/%(functional_training_data.attachment_odoo_implementation_methodology)d"
+                                            title="Odoo-Implementation-methodology.pdf"
+                                            data-mimetype="application/pdf" class="o_image"></a></p>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </field>
+    </record>
+
+    <record id="slide_sessione_9_resource_oim" model="slide.slide.resource">
+        <field name="slide_id" ref="slide_sessione_9" />
+        <field name="name">Odoo Implementation Book</field>
+        <field name="resource_type">file</field>
+        <field name="data" type="base64"
+            file="functional_training_data/static/files/odoo_implementation_methodology.pdf" />
+    </record>
+
+    <!-- ========================================================= -->
+    <!-- SESSIONE 10                                               -->
+    <!-- ========================================================= -->
+
+    <record id="slide_sessione_10" model="slide.slide">
+
+        <field name="name">Session 10 : Kick Off : Project alignement &amp; Business Analysis</field>
+
+        <field name="channel_id"
+            ref="partner_bootcamp" />
+
+        <field name="slide_category">article</field>
+
+        <field name="sequence">12</field>
+
+        <field name="is_published">True</field>
+
+        <field name="html_content" type="html">
+            <div
+                class="o_wslides_fs_content align-items-stretch justify-content-center d-flex flex-grow-1 order-2">
+                <div class="o_wslide_fs_article_content bg-white block w-100 overflow-auto p-3">
+                    <section class="s_title pt40 pb40 o_colored_level" data-vcss="001"
+                        data-snippet="s_title" data-name="Title">
+                        <div class="container s_allow_columns">
+                            <h2 class="display-3-fs" style="text-align: center;">
+                                <img
+                                    src="/web/image/%(functional_training_data.attachment_methodo)d"
+                                    alt="" class="img img-fluid o_we_custom_image"
+                                    data-mimetype="image/webp"
+                                    data-original-id="%(functional_training_data.attachment_methodo)d"
+                                    data-original-src="/web/image/%(functional_training_data.attachment_methodo)d"
+                                    data-mimetype-before-conversion="image/png"
+                                    data-resize-width="NaN" loading="lazy"
+                                    data-attachment-id="%(functional_training_data.attachment_methodo)d"
+                                    style="" />
+                            </h2>
+                        </div>
+                    </section>
+                    <section class="s_title pt40 pb40 o_colored_level" data-vcss="001"
+                        data-snippet="s_title" data-name="Title">
+                        <div class="container s_allow_columns">
+                            <p>
+                                <br />
+                            </p>
+                            <p>
+                                <br />
+                            </p>
+                            <h1 class="o_default_snippet_text" style="text-align: center;">
+                                <font class="text-800">Kick Off :Alignm​ent &amp; Business Analysis</font>
+                            </h1>
+                        </div>
+                    </section>
+                    <section class="s_text_block o_colored_level pb0 pt40 o_half_screen_height"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="s_allow_columns container" bis_skin_checked="1">
+
+                            <p class="o_default_snippet_text lead" style="text-align: left;"><font
+                                    class="text-black">Remember this graph? This</font>session
+                                focuses onthe <strong>Alignment &amp; Methodology,</strong>and the<strong>
+                                Business analysis.</strong></p>
+                            <p style="text-align: justify;">
+                                <img
+                                    src="/web/image/%(functional_training_data.attachment_implem_2)d"
+                                    alt="" class="img img-fluid o_we_custom_image" loading="lazy"
+                                    style="" />
+                            </p>
+                            <h2 style="text-align: left;">
+                                <font class="text-o-color-2">Part 1: Alignment &amp;
+                                    Methodology</font>
+                            </h2>
+                            <p style="text-align: left;">
+                                <br />
+                            </p>
+                            <p class="lead">The goal of this step is to align with the customer on:</p>
+                            <ul>
+                                <li>
+                                    <span class="lead">
+                                        the customer's expectations following the sales process,
+</span>
+                                </li>
+                                <li>
+                                    <span class="lead">
+                                        the Odoo methodology,
+</span>
+                                </li>
+                                <li>
+                                    <span class="lead">
+                                        <span class="lead">
+                                            each party's responsibilities,
+</span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="lead">
+                                        the general principles of the methodology,
+</span>
+                                </li>
+                                <li>
+                                    <span class="lead">
+                                        the practical aspects of the implementation: timesheets, 2
+                                        calls per week, etc.
+</span>
+                                </li>
+                            </ul>
+                            <p class="lead">For more information about the Odoo Implementation
+                                methodology, you can refer to the OIM book<strong>pages 2 to
+                                    9.</strong></p>
+                            <p style="text-align: center;">
+                                <a class="o_translate_inline btn btn-secondary"
+                                    href="/web/content/%(functional_training_data.attachment_odoo_implementation_methodology)d"
+                                    target="_blank">OIM Book</a>
+                            </p>
+                            <p>
+                                <br />
+                            </p>
+                            <div
+                                class="o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-info pb-0 pt-3"
+                                role="status" data-oe-protected="true">
+                                <i class="o_editor_banner_icon mb-3 fst-normal"
+                                    aria-label="Banner Info">💡</i>
+                                <div data-gramm="false" spellcheck="false"
+                                    data-lt-tmp-id="lt-886640" class="w-100 ms-3"
+                                    data-oe-protected="false">
+                                    <p class="lead">We use these <a
+                                            href="/web/content/%(functional_training_data.attachment_part_1_alignment_business_analysis)d"
+                                            data-bs-original-title="" title=""
+                                            class="btn btn-secondary btn-sm" target="_blank">slides</a>
+                                        to kick-off our projects. Don't hesitate to go through each
+                                        slide and check the comments in the lower section to find
+                                        more details on what to say for each one.<br /><br />You can
+                                        also check this <a
+                                            class="o_translate_inline btn btn-secondary btn-sm"
+                                            href="https://www.youtube.com/watch?v=G2JUJUN3GoE&amp;t=160s"
+                                            target="_blank">video</a>to understand how we present
+                                        it.</p>
+                                </div>
+                            </div>
+
+                            <h5 style="text-align: left;">
+                                <br />
+                            </h5>
+                            <h2 style="text-align: left;">
+                                <font class="text-o-color-2">Part 2: Business analysis</font>
+                            </h2>
+                            <p style="text-align: left;">
+                                <img class="img-fluid mx-auto d-block" data-file-name="image.png"
+                                    src="/web/image/%(functional_training_data.attachment_business)d"
+                                    style="width: 25% !important;" loading="lazy" />
+                            </p>
+                            <p class="lead">Business analysis is one of the most crucial steps in an
+                                implementation. The goal of this part is to understand how the
+                                client’s company currently works.</p>
+                        </div>
+                    </section>
+                    <section class="s_cards_grid o_colored_level o_cc o_cc2 pt64 pb16"
+                        data-snippet="s_cards_grid" data-name="Cards Grid" data-vxml="001">
+                        <div class="container">
+                            <div class="row s_nb_column_fixed o_grid_mode align-items-start"
+                                data-row-count="17">
+                                <div class="o_grid_item g-col-lg-12 g-height-2 col-lg-12"
+                                    style="grid-area: 1 / 1 / 3 / 13; z-index: 1;">
+                                    <p class="lead">
+                                        <span class="h5-fs">
+                                            <strong>
+                                                <em>Some valuable tips</em>
+                                            </strong>
+                                        </span>
+                                    </p>
+                                </div>
+                                <div data-name="Card"
+                                    class="o_grid_item g-col-lg-6 g-height-7 col-lg-6 d-flex flex-column"
+                                    style="grid-area: 2 / 1 / 9 / 7; z-index: 2;">
+                                    <div
+                                        class="s_card o_cc o_cc1 card o_colored_level o_card_img_horizontal flex-lg-row h-100"
+                                        data-vxml="001" data-snippet="s_card" data-name="Card"
+                                        style="--card-img-size-h: 25%;">
+                                        <figure class="o_card_img_wrapper ratio ratio-1x1 mb-0">
+                                            <img
+                                                src="/web/image/%(functional_training_data.attachment_person_vertical)d"
+                                                alt="A man standing in a field holding a camera"
+                                                class="o_card_img rounded-start img img-fluid o_we_custom_image object-fit-cover o_editable_media"
+                                                data-resize-width="undefined" loading="lazy"
+                                                style="" />
+                                        </figure>
+                                        <div class="card-body">
+                                            <p class="card-title lead">
+                                                <strong>Why, why, why?</strong>
+                                            </p>
+                                            <p class="card-title lead">Always try to understand <em>
+                                                why</em> they work the way they do.</p>
+                                            <p class="card-title lead">By the end of the call, you
+                                                should feel like you've spent 10 years working in
+                                                their company.</p>
+                                            <p class="card-title lead">
+                                                <br />
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-name="Card"
+                                    class="o_grid_item g-col-lg-6 g-height-7 col-lg-6 d-flex flex-column"
+                                    style="grid-area: 2 / 7 / 9 / 13; z-index: 3;">
+                                    <div
+                                        class="s_card o_card_img_horizontal o_cc o_cc1 card flex-lg-row o_colored_level h-100"
+                                        data-vxml="001" data-snippet="s_card" data-name="Card"
+                                        style="--card-img-size-h: 25%;">
+                                        <figure class="o_card_img_wrapper ratio ratio-1x1 mb-0">
+                                            <img
+                                                src="/web/image/%(functional_training_data.attachment_person_vertical_1)d"
+                                                alt="woman in white long sleeve shirt and green pants standing on beach during daytime"
+                                                class="o_card_img rounded-start img img-fluid o_we_custom_image object-fit-cover o_editable_media"
+                                                data-resize-width="undefined" loading="lazy"
+                                                style="" />
+                                        </figure>
+                                        <div class="card-body">
+                                            <p class="lead">
+                                                <strong>Focus on today</strong>
+                                            </p>
+                                            <p class="lead">Focus on how the client operates today,
+                                                not on what they expect from Odoo.</p>
+                                            <p class="lead">Don’t feel the need to explain
+                                                what Odoo can or can’t do at this stage.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-name="Card"
+                                    class="o_grid_item g-col-lg-6 g-height-9 col-lg-6 d-flex flex-column"
+                                    style="grid-area: 8 / 1 / 17 / 7; z-index: 4;">
+                                    <div
+                                        class="s_card o_card_img_horizontal o_cc o_cc1 card flex-lg-row o_colored_level h-100"
+                                        data-vxml="001" data-snippet="s_card" data-name="Card"
+                                        style="--card-img-size-h: 25%;">
+                                        <figure class="o_card_img_wrapper ratio ratio-1x1 mb-0">
+                                            <img
+                                                src="/web/image/%(functional_training_data.attachment_person_vertical_2)d"
+                                                alt="a man walking down a street next to a tree"
+                                                class="o_card_img rounded-start img img-fluid o_we_custom_image object-fit-cover o_editable_media"
+                                                data-resize-width="undefined" loading="lazy"
+                                                style="" />
+                                        </figure>
+                                        <div class="card-body">
+                                            <p class="lead">
+                                                <strong>Be curious</strong>
+                                            </p>
+                                            <p class="lead">Start your analysis with the same
+                                                question, for example: <em>How do you get your
+                                                customers?</em></p>
+                                            <p class="lead"> Then, follow the flow in your mind
+                                                based on the SPOC’s answers. For example, if the
+                                                SPOCsays they get contacted through their website — <em>OK,
+                                                who reads that message next? What
+                                                    do they do with the information?</em></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div data-name="Card"
+                                    class="o_grid_item g-col-lg-6 g-height-10 col-lg-6 d-flex flex-column"
+                                    style="z-index: 5; grid-area: 8 / 7 / 18 / 13;">
+                                    <div
+                                        class="s_card o_card_img_horizontal o_cc o_cc1 card flex-lg-row o_colored_level h-100"
+                                        data-vxml="001" data-snippet="s_card" data-name="Card"
+                                        style="--card-img-size-h: 25%;">
+                                        <figure class="o_card_img_wrapper ratio ratio-1x1 mb-0">
+                                            <img
+                                                src="/web/image/%(functional_training_data.attachment_person_vertical_3)d"
+                                                alt="A man standing in the middle of a field"
+                                                class="o_card_img rounded-start img img-fluid o_we_custom_image object-fit-cover o_editable_media"
+                                                data-resize-width="undefined" loading="lazy"
+                                                style="" />
+                                        </figure>
+                                        <div class="card-body">
+                                            <p class="lead">
+                                                <strong>Never be afraid to:</strong>
+                                            </p>
+                                            <ul class="lead">
+                                                <li>ask twice the same question if it's unclear<br /><br /></li>
+                                                <li>say that you don't know something they are
+                                                    mentioning<br /><br /></li>
+                                                <li>ask the SPOC to pause their explanation to take
+                                                    note on what they just said<br /><br /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="s_text_block pt40 o_colored_level pb0"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="s_allow_columns container" data-lt-tmp-id="lt-641504"
+                            spellcheck="false" data-gramm="false">
+                            <p class="lead">
+                                <br />
+                            </p>
+                            <p class="lead">To help our customer prepare for this part of the
+                                meeting, we send them <a class="o_translate_inline"
+                                    href="/web/content/%(functional_training_data.attachment_lets_prepare_your_implementation)d">
+                                thisdocument</a>. At the end of that document, there’s a list of
+                                sample questions you can use as inspiration for the kick-off.</p>
+                            <div data-oe-protected="true" role="status"
+                                class="o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-info pb-0 pt-3">
+                                <i aria-label="Banner Info"
+                                    class="o_editor_banner_icon mb-3 fst-normal">💡</i>
+                                <div data-oe-protected="false" class="w-100 ms-3"
+                                    data-lt-tmp-id="lt-886640" spellcheck="false" data-gramm="false">
+                                    <p class="lead">
+                                        <em>You can start by using those questions as a guide, but
+                                            reading from a list makes it harder to react naturally
+                                            to the client’s answers. Try to move away from the list
+                                            as soon as you can, and rely more on improvisation and
+                                            your instincts💪</em>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <h5 style="text-align: left;">
+                                <br />
+                            </h5>
+                        </div>
+                    </section>
+                    <section class="s_text_block o_colored_level pb0 pt72"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="s_allow_columns container" bis_skin_checked="1">
+                            <h2 class="o_default_snippet_text">
+                                <font class="text-o-color-1">​</font>
+                                <font class="text-o-color-2">After the meeting</font>
+                            </h2>
+                            <h4 style="text-align: justify;">
+                                <br />
+                            </h4>
+                            <h4 style="text-align: justify;">
+                                <font class="text-o-color-1">Meeting Minutes</font>
+                            </h4>
+                            <ul style="text-align: justify;">
+                                <li>
+                                    <p>
+                                        <span class="lead">Send anemail containing</span>
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <span class="lead">A summary of the call</span>
+                                        </li>
+                                        <li>
+                                            <span class="lead">What has to be done for next call on
+                                                each side (SPOC and consultant)</span>
+                                        </li>
+                                        <li>
+                                            <span class="lead">Date and planning of the next call</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                                <br />
+                            </p>
+                            <h4 style="text-align: justify;">
+                                <font class="text-o-color-1">Flowchart</font>
+                            </h4>
+                            <p class="lead">After each Kick-off meeting, we recommend you to create
+                                a flowchart of your client's processes using<a
+                                    class="o_translate_inline"
+                                    href="https://app.excalidraw.com/w/1NQ9v6DGdDj/dashboard">
+                                Excalidraw. </a>This step offers several key benefits:</p>
+                            <ul>
+                                <li>
+                                    <span class="lead">
+                                        Provides a clear visual representation of the company’s
+                                        processes
+</span>
+                                </li>
+                                <li>
+                                    <span class="lead">
+                                        Helps identify any missing or unclear information in the
+                                        business flow
+</span>
+                                </li>
+                                <li>
+                                    <span class="lead">
+                                        <span class="lead">
+                                            Allows you to validate your understanding of the
+                                            processes with the client
+</span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="lead">
+                                        Facilitates alignment between your team and the client from
+                                        the start</span>
+                                </li>
+                            </ul>
+                            <p>
+                                <br />
+                            </p>
+                            <h4>
+                                <font class="text-o-color-1">Planning and budget</font>
+                            </h4>
+                            <p class="lead">Once the kick-off call(s) are completed, you’ll need to
+                                prepare the project planning and budget. We will cover this topic in
+                                the session 12.</p>
+                        </div>
+                    </section>
+                    <p style="text-align: justify;">
+                        <br />
+                    </p>
+                </div>
+            </div>
+        </field>
+    </record>
+
+    <record id="slide_sessione_10_resource_oim" model="slide.slide.resource">
+        <field name="slide_id" ref="slide_sessione_10" />
+        <field name="name">KO : Project Alignement &amp; Business Analysis</field>
+        <field name="resource_type">file</field>
+        <field name="data" type="base64"
+            file="functional_training_data/static/files/part_1_alignment_business_analysis.pptx" />
+    </record>
+
+    <!-- ========================================================= -->
+    <!-- SESSIONE 11                                               -->
+    <!-- ========================================================= -->
+
+    <record id="slide_sessione_11" model="slide.slide">
+
+        <field name="name">Session 11 : Droneland - Kick off</field>
+
+        <field name="channel_id"
+            ref="partner_bootcamp" />
+
+        <field name="slide_category">article</field>
+
+        <field name="sequence">13</field>
+
+        <field name="is_published">True</field>
+
+        <field name="html_content" type="html">
+            <div
+                class="o_wslides_fs_content align-items-stretch justify-content-center d-flex flex-grow-1 order-2">
+                <div class="o_wslide_fs_article_content bg-white block w-100 overflow-auto p-3">
+                    <br />
+                    <section
+                        class="s_kickoff o_cc o_cc5 parallax s_parallax_is_fixed s_parallax_no_overflow_hidden pb88 o_colored_level pt136"
+                        data-scroll-background-ratio="1"
+                        data-oe-shape-data="{&quot;shape&quot;:&quot;html_builder/Connections/06&quot;,&quot;colors&quot;:{&quot;c5&quot;:&quot;o-color-4&quot;},&quot;flip&quot;:[],&quot;showOnMobile&quot;:false,&quot;shapeAnimationSpeed&quot;:&quot;0&quot;,&quot;selectedColor&quot;:true}"
+                        data-snippet="s_kickoff" data-name="Kickoff">
+                        <span
+                            class="s_parallax_bg oe_img_bg o_bg_img_center o_bg_img_origin_border_box"
+                            style="background-image: url(&quot;/web/image/%(functional_training_data.attachment_drone)d&quot;) !important;"></span>
+                        <div class="o_we_bg_filter bg-black-50"></div>
+                        <div class="o_we_shape o_web_editor_Connections_06"
+                            style="background-image: url(&quot;/it_IT/web_editor/shape/web_editor/Connections/06.svg?c5=o-color-4&quot;); left: -0.16px; right: -0.16px;"></div>
+                        <div class="container">
+                            <h1 class="display-1" style="text-align: center;">Droneland</h1>
+                        </div>
+                    </section>
+                    <section class="s_text_block pt40 pb40 o_colored_level"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="s_allow_columns container">
+                            <p style="margin-bottom: 0px;" class="o_default_snippet_text">
+                                <br />
+                            </p>
+                            <h1 class="display-2" style="text-align: center;">Your time to shine 🌟</h1>
+                            <p>
+                                <br />
+                            </p>
+                            <p class="lead">Welcome to your first project as an Odoo Consultant!
+                                You’ll be working with <strong>Droneland, </strong>a company
+                                producing and selling drones. Below you'll find the key information
+                                gathered by the salesperson during the pre-sales phase.</p>
+                            <p class="lead">To prepare for your <strong>Kick-Off session</strong>
+                                with the customer:</p>
+                            <ul>
+                                <li style="text-align: left;">
+                                    <span class="lead"> Review the tips and best practices shared in <strong>Session
+                                        10: Kick-Off</strong>
+                                    </span>
+                                </li>
+                                <li style="text-align: left;">
+                                    <span class="lead"> Use the official <strong>
+                                            <a
+                                                href="/web/content/%(functional_training_data.attachment_project_alignment)d"
+                                                target="_blank">Kick-Off presentation</a>
+                                        </strong>
+                                        to explain our implementation methodology </span>
+                                </li>
+                                <li style="text-align: left;">
+                                    <span class="lead"> Carefully read the details provided by the
+                                        salesperson and prepare a list of <strong>targeted questions</strong>
+                                        to better understand the customer’s needs and expectations </span>
+                                </li>
+                            </ul>
+                            <p class="lead" style="text-align: left;">Let’s make this project a
+                                success from the very first meeting!</p>
+                        </div>
+                    </section>
+                    <section class="s_text_block o_colored_level pb0 pt0"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="s_allow_columns container">
+                            <h1 style="text-align: center;" class="display-2">Pre-sales information</h1>
+                            <p class="o_default_snippet_text lead">
+                                <span style="font-size: 18px;">
+                                    <strong>
+                                        <font class="text-o-color-1">
+                                            <span style="font-weight: normal;">General information</span>
+                                        </font>
+                                    </strong>
+                                </span>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span class="lead">Platform : SaaS</span>
+                                </li>
+                                <li>
+                                    <span class="lead">License : Custom</span>
+                                </li>
+                                <li>
+                                    <span class="lead">Project budget : 50 hours (prepaid)</span>
+                                </li>
+                                <li>
+                                    <span class="lead">Existing website : <a
+                                            href="https://droneland.odoo.com/"
+                                            data-bs-original-title="" title="" target="_blank">
+                                            <strong>https://droneland.odoo.com/</strong>
+                                        </a><strong>
+                                            <br />
+                                            <br />
+                                        </strong></span>
+                                </li>
+                            </ul>
+                            <p class="lead">
+                                <span class="fa fa-home text-o-color-1"></span>
+                                <font class="text-o-color-1"> In 1 sentence, what is the
+                                    company about?</font>
+                                <u>
+                                    <font class="text-o-color-1">​</font>
+                                </u>
+                            </p>
+                            <table class="table table-bordered o_table">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <ul>
+                                                <li>
+                                                    <span class="lead">
+                                                        <span class="lead">
+                                                            <span class="lead">
+                                                                <span class="lead">
+                                                                    <b style="font-weight:normal">
+                                                                        <span class="lead">
+                                                                            <span class="lead">
+                                                                                <span class="lead">Droneland
+                                                                                    is an innovative
+                                                                                    drone company
+                                                                                    that seamlessly
+                                                                                    bridges the gap
+                                                                                    between business
+                                                                                    and consumer
+                                                                                    needs, offering
+                                                                                    high-quality
+                                                                                    drones for both
+                                                                                    professional and
+                                                                                    recreational use</span>
+                                                                            </span>
+                                                                        </span>
+                                                                    </b>
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="lead">
+                                                        <span class="lead">B2B</span>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <br />
+                            </p>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <font class="text-o-color-1"><span class="fa fa-gears"></span> How
+                                    does the company work today?</font>
+                            </p>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <br />
+                            </p>
+                            <table class="table table-bordered o_table">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <b style="font-weight:normal"></b>
+                                            <ul>
+                                                <li>
+                                                    <span class="lead">
+                                                        <span class="text-900">
+                                                            <em>
+                                                                <font class="text-800">
+                                                                    <span
+                                                                        style="font-style: normal;">They
+                                                                        sell drones in B2B</span>
+                                                                </font>
+                                                            </em>
+                                                        </span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="lead">
+                                                        <span class="text-900">
+                                                            <em>
+                                                                <font class="text-800">
+                                                                    <span
+                                                                        style="font-style: normal;">Their
+                                                                        customers can come from
+                                                                        social media and through
+                                                                        their website (wants to keep
+                                                                        their own website)</span>
+                                                                </font>
+                                                            </em>
+                                                        </span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="lead">
+                                                        <span class="text-900">
+                                                            <em>
+                                                                <font class="text-800">
+                                                                    <span
+                                                                        style="font-style: normal;">They
+                                                                        have
+                                                                        a lot of leads</span>
+                                                                </font>
+                                                            </em>
+                                                        </span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="lead">Lead -&gt; sale
+                                                        order -&gt; delivery -&gt; invoicing</span>
+                                                </li>
+                                                <li>
+                                                    <span class="lead">They manufacture three
+                                                        finished goods (basic, medium, premium)</span>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <br />
+                            </p>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <br />
+                            </p>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <span class="fa fa-folder-open text-o-color-1"></span>
+                                <font class="text-o-color-1"> From those flows you just
+                                    explained, what are the needs they expect to
+                                    solve with Odoo?</font>
+                            </p>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <br />
+                            </p>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <em>Why did the customer investigate Odoo in the first place? What
+                                    did you notice that we can also solve with Odoo?</em>
+                            </p>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <br />
+                            </p>
+                            <table class="table table-bordered o_table">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <ul>
+                                                <li>
+                                                    <span class="lead">Handle sales flow in Odoo</span>
+                                                </li>
+                                                <li>
+                                                    <span class="lead">Manage orders and purchases</span>
+                                                </li>
+                                                <li>
+                                                    <span class="lead">Manage stock moves and
+                                                        manufacture of the finished goods</span>
+                                                </li>
+                                                <li>
+                                                    <span class="lead">Integration website &gt; Odoo
+                                                        to manage leads</span>
+                                                </li>
+                                                <li>
+                                                    <span class="lead">Full integrated system</span>
+                                                </li>
+                                                <li>
+                                                    <span class="lead">Discussed apps: CRM - sales -
+                                                        inventory - purchase - invoicing -
+                                                        accounting - ecommerce website -
+                                                        projects - helpdesk - planning - HR apps
+                                                        (payroll/ time off/ employees/ expenses)</span>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <br />
+                            </p>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <u>
+                                    <br />
+                                </u>
+                            </p>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <span
+                                    class="fa fa-wrench text-o-color-1"></span>
+                                <font
+                                    class="text-o-color-1">What are the priorities and deadlines?</font>
+                            </p>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <font class="text-o-color-1">​</font>
+                            </p>
+                            <table class="table table-bordered o_table">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <p style="margin-bottom: 0px;" class="lead">The customer
+                                                wants to go live as soon as possible. They’re on a
+                                                very tight schedule.</p>
+                                            <p style="margin-bottom: 0px;" class="lead">
+                                                <br />
+                                            </p>
+                                            <p class="lead">Their main goal is to centralize and
+                                                automate their processes as much as possible, while
+                                                also being able to keep record of all transactions
+                                                as well. They would like to become paperless.
+                                                ​Today, too many mistakes.<br /></p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <br />
+                            </p>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <span
+                                    class="fa fa-wrench text-o-color-1"></span>
+                                <font
+                                    class="text-o-color-1">What are the data to import?</font>
+                            </p>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <font class="text-o-color-1">​</font>
+                            </p>
+                            <table style="height: 44.8625px;" class="table table-bordered o_table">
+                                <tbody>
+                                    <tr style="height: 44.0625px;">
+                                        <td>
+                                            <p class="lead">Data : customers, suppliers, products,
+                                                BOMs, old invoices</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <br />
+                            </p>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <font class="text-o-color-1">Who will be the stakeholders of the
+                                    implementation?</font>
+                            </p>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <font class="text-o-color-1">​</font>
+                            </p>
+                            <ul style="margin-bottom: 0px;">
+                                <li>
+                                    <span class="lead">Sponsor: Founder - Dolores</span>
+                                </li>
+                                <li>
+                                    <span class="lead">SPoC: Founder (Dolores) or Assistant (Finn)</span>
+                                </li>
+                                <li>
+                                    <span class="lead">Stakeholders: Founder, assistant, logistics
+                                        manager, manufacturing employees</span>
+                                </li>
+                            </ul>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <br />
+                            </p>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <font class="text-o-color-1">Any particularity/risk?</font>
+                            </p>
+                            <p style="margin-bottom: 0px;" class="lead">
+                                <br />
+                            </p>
+                            <table class="table table-bordered o_table">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <ul style="margin-bottom: 0px;">
+                                                <li>
+                                                    <span class="lead">Non-adhesion with the Odoo
+                                                        Methodology</span>
+                                                </li>
+                                                <li>
+                                                    <span class="lead">Availability of the SPOC</span>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p class="lead">
+                                <br />
+                            </p>
+                            <p class="lead">
+                                <font class="text-o-color-1">Digital opportunities</font>
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        <span class="lead">Business development opportunities</span>
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <span class="lead">
+                                                <em>scope extension, company growth, new
+                                                    markets </em>
+                                                <br />
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <table class="table table-bordered o_table">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <ul>
+                                                <li>
+                                                    <span class="lead">Open to do their accounting
+                                                        in Odoo with an accounting firm</span>
+                                                    <br />
+                                                </li>
+                                                <li>
+                                                    <span class="lead">After sale services </span>
+                                                </li>
+                                                <li>
+                                                    <span class="lead">Showroom events</span>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                    <p style="margin-bottom: 0px;"> </p>
+                    <p style="margin-bottom: 0px;">
+                        <br />
+                    </p>
+                </div>
+            </div>
+        </field>
+    </record>
+
+    <!-- ========================================================= -->
+    <!-- SESSIONE 12                                               -->
+    <!-- ========================================================= -->
+
+    <record id="slide_sessione_12" model="slide.slide">
+
+        <field name="name">Session 12 : Project Roadmap</field>
+
+        <field name="channel_id"
+            ref="partner_bootcamp" />
+
+        <field name="slide_category">article</field>
+
+        <field name="sequence">14</field>
+
+        <field name="is_published">True</field>
+
+        <field name="html_content" type="html">
+            <div
+                class="o_wslides_fs_content align-items-stretch justify-content-center d-flex flex-grow-1 order-2">
+                <div class="o_wslide_fs_article_content bg-white block w-100 overflow-auto p-3">
+                    <br />
+                    <section class="s_title o_colored_level pt0 pb64" data-vcss="001"
+                        data-snippet="s_title" data-name="Title">
+                        <div class="s_allow_columns container" bis_skin_checked="1">
+                            <h1 class="o_default_snippet_text" style="text-align: center;">
+                                <img
+                                    src="/web/image/%(functional_training_data.attachment_methodo)d"
+                                    alt="" class="img img-fluid o_we_custom_image"
+                                    data-mimetype="image/png"
+                                    data-original-id="%(functional_training_data.attachment_methodo)d"
+                                    data-original-src="/web/image/%(functional_training_data.attachment_methodo)d"
+                                    data-mimetype-before-conversion="image/png" loading="lazy"
+                                    data-attachment-id="%(functional_training_data.attachment_methodo)d"
+                                    style="" />
+                            </h1>
+                            <h1 class="o_default_snippet_text" style="text-align: center;">
+                                <font class="text-800">Project phasing, budgeting and plan​​ning</font>
+                                <br />
+                            </h1>
+                        </div>
+                    </section>
+                    <br />
+                    <section class="s_text_block o_colored_level pb0 pt0"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="container s_allow_columns" bis_skin_checked="1">
+
+                            <h2 class="o_default_snippet_text" style="text-align: justify;">
+                                Introduction
+
+                            </h2>
+                            <p style="text-align: justify;">A phasing is your road map to implement
+                                your project. It gives the order in which you will integrate the
+                                flows/applications.</p>
+                            <p style="text-align: justify;">But, why do we phase a project?</p>
+
+                            <ul>
+                                <li style="text-align: justify;">We don’t start a trip without a
+                                    map!</li>
+                                <li style="text-align: justify;">If you implement without a phasing,
+                                    it emphasizes the risk of failure: We phase the project and
+                                    focus on phases one by one to boost efficiency by avoiding that
+                                    the project moves in plenty of directions and becomes out of
+                                    control.</li>
+                                <li style="text-align: justify;">This phasing is your guideline in
+                                    order to keep a macro view of your project</li>
+                                <li style="text-align: justify;">We bring phases to production one
+                                    by one to validate the steps of the project sequentially and
+                                    avoid discovering major issues at the end of the project.</li>
+                            </ul>
+                            <p class="o_default_snippet_text">In this section, you will discover how
+                                to phase your project.</p>
+                            <p class="o_default_snippet_text">Here is the link to the presentation
+                                to be discussed with your onboarder: <a
+                                    class="o_translate_inline btn btn-secondary"
+                                    href="/web/content/%(functional_training_data.attachment_project_phasing_budgeting_and_planning)d"
+                                    target="_blank">How to phase, budget and plan a project?</a></p>
+                        </div>
+                    </section>
+                    <section class="s_text_block o_colored_level pb0 pt48"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="s_allow_columns container" bis_skin_checked="1">
+                            <h2 class="o_default_snippet_text">
+                                <font class="text-o-color-1">1️⃣ Phasing</font>
+
+
+                            </h2>
+                            <p style="text-align: justify;">The phasing aims to be able to go-live
+                                with a part of the system after the implementation and if possible
+                                in a limited amount of time and budget. You define the phasing and <em>the
+                                SPoC has to validate it</em><strong>.</strong></p>
+
+
+                            <p>
+                                <br />
+                            </p>
+
+
+                            <p style="text-align: justify;">
+                                <strong>
+                                    <em> ​ ​ ​ Your objective is to: "Onboard the USERS on TIME
+                                        &amp; on BUDGET"</em>
+                                </strong>
+                            </p>
+
+
+                            <p>
+                                <font class="text-o-color-2">​</font>
+                            </p>
+
+
+                            <p style="text-align: justify;">In order to reach this goal, each phase
+                                will be defined by Minimum Viable Product (MVP) and/or 2nd
+                                Deployment.</p>
+
+
+                            <p style="text-align: justify;">You have to define which Minimum Viable
+                                Product flow you will have to implement first, in order for the
+                                customer to benefit as quickly as possible from the added value of
+                                using Odoo.</p>
+
+
+                            <p>
+                                <br />
+                            </p>
+
+
+                            <p class="o_default_snippet_text">Here are some examples of phasing:</p>
+                            <table style="width: 928px;" class="table table-bordered o_table">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 164px;">
+                                            <p>
+                                                <br />
+                                            </p>
+                                        </td>
+                                        <td style="width: 360px;">
+                                            <p>
+                                                <u>
+                                                    <em>Project 1</em>
+                                                </u>
+                                            </p>
+                                        </td>
+                                        <td style="width: 403px;">
+                                            <p>
+                                                <u>
+                                                    <em>Project 2</em>
+                                                </u>
+                                                <br />
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 309px;">
+                                            <p>
+                                                <strong>Phase 1</strong>
+                                            </p>
+                                        </td>
+                                        <td style="width: 309px;">
+                                            <p>MVP 1: Finance (invoicing &amp; Accounting)</p>
+                                            <p>MVP 2: Logistics (Inventory &amp; Purchase)</p>
+                                            <p>Go-live on phase 1</p>
+                                        </td>
+                                        <td style="width: 309px;">
+                                            <p>MVP : Sales, invoicing, purchase, inventory,
+                                                manufacturing, website &amp; E-commerce</p>
+                                            <p>Go-live on MVP1</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 309px;">
+                                            <p>
+                                                <strong>Phase 2</strong>
+                                            </p>
+                                        </td>
+                                        <td style="width: 309px;">
+                                            <p>MVP 3: Pre-Sales process (CRM / Sales)</p>
+                                            <p>Go-live on MVP3</p>
+                                            <p>2nd Deployment MVP3</p>
+                                            <p>Go-live on 2nd Deployment</p>
+                                        </td>
+                                        <td style="width: 309px;">
+                                            <p>2nd Deployment: Sales-Invoicing</p>
+                                            <p>Go-live on 2nd Deployment</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 309px;">
+                                            <p>
+                                                <strong>Phase 3</strong>
+                                            </p>
+                                        </td>
+                                        <td style="width: 309px;">
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <p>MVP 4: Marketing (Mass mailing &amp;
+                                                                SMS)</p>
+                                                            <p>Go-live MVP4</p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                        <td style="width: 309px;">
+                                            <p>2nd Deployment: Purchase Inventory</p>
+                                            <p>Go-live on 2nd Deployment</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 309px;">
+                                            <p>
+                                                <strong>Phase 4</strong>
+                                            </p>
+                                        </td>
+                                        <td style="width: 309px;">
+                                            <p>2nd Deployment MVP1: Finance</p>
+                                            <p>Go-live on 2nd Deployment</p>
+                                        </td>
+                                        <td style="width: 309px;">
+                                            <p>/</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p class="o_default_snippet_text" style="text-align: justify;">What you
+                                must keep in mind is that you need to prove, during the early stage
+                                of the project, the <em>added value </em>of Odoo and the quality of
+                                the implementation service received. So you should focus on the
+                                scope that will make the <em>biggest impact</em> in the way the
+                                company operates. However, keep in mind that there is no magic
+                                phasing, and your best ally is your common sense. You can have 2
+                                projects with the same scope but with different MVP phasing. </p>
+                            <p>
+                                <br />
+                            </p>
+
+
+                            <p style="text-align: justify;">The phasing will be decided based on the
+                                information we gather during the kick-off phase. Here are some
+                                information you may collect during the Kick-Off that should help you
+                                on the way to design the phasing</p>
+
+
+                            <ul>
+                                <li style="text-align: justify;">Which flow is related to the
+                                    company's core business</li>
+                                <li style="text-align: justify;">Which departments will be involved
+                                    in the change</li>
+                                <li style="text-align: justify;">License of the current system will
+                                    expire</li>
+                                <li style="text-align: justify;">One of the employee will leave soon
+                                    and s.he was the only one to know the workflow</li>
+                                <li style="text-align: justify;">The client urgencies. This point
+                                    needs to be challenged. This is the BA's responsibility to
+                                    assess if this is an urgency/need or not. Eg: accounting
+                                    closing, website for a roadshow, etc. </li>
+                                <li style="text-align: justify;">The customer is losing efficiency
+                                    or risks receiving fines because of an existing software, …</li>
+                            </ul>
+
+
+                            <p>
+                                <br />
+                            </p>
+
+
+                            <p class="o_default_snippet_text" style="text-align: justify;">The
+                                phasing is different from the implementation steps. It gives vision
+                                to the customer about the way the project will evolve whereas the
+                                implementation is part of a phase. Implementing aims to put in place
+                                the needs of the client for him to be at the end of the phase ready
+                                to use Odoo in production. </p>
+                        </div>
+                    </section>
+                    <section class="s_text_block pt40 o_colored_level pb4"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="container s_allow_columns" bis_skin_checked="1">
+                            <h4 class="o_default_snippet_text">Switch from One Phase MVP/2nd
+                                Deployment to another one
+
+
+                            </h4>
+                            <p style="text-align: justify;">You need to be sure that the previous
+                                MVP/2nd Deployment is completed before starting the next one. A
+                                phase is completed only once the go-live has happened and you and
+                                your customer agreed that they don't need further support and can
+                                focus on the work for the next phase.</p>
+
+
+                            <p style="text-align: justify;">If you start a new phase without having
+                                closed the previous one, clients might not want to take the jump to
+                                go-live and might try to postpone the go-live (eg: as all flows are
+                                not yet ready) or won’t let you start the next phase (eg: because
+                                there is still a lot to Improve). </p>
+
+
+                            <p>
+                                <br />
+                            </p>
+
+
+                            <p style="text-align: justify;">Pay attention to the go-live and
+                                Post-Production parts of a MVP/2nd Deployment. The users will have
+                                feedback that you might have to work on to make sure that they will
+                                improve their way of working with Odoo. Plan some time right after
+                                the launch into production to be able to collect the feedback,
+                                decide if it needs to be implemented directly or if you need to plan
+                                that in a next phase. Keep challenging your customer to only work on
+                                blocking points that prevent them from using the system, and not on
+                                points that are working but could be improved. With the time &amp;
+                                usage, those requests might be removed as they are no longer needed.</p>
+
+
+                            <p>
+                                <br />
+                            </p>
+
+
+                            <p class="o_default_snippet_text" style="text-align: justify;">Once you
+                                start working on the next phase, you might still receive some
+                                requests for improvement. Make sure that the impact of managing them
+                                instead of working on the next phase is clear in the customer's mind
+                                (delay for the implementation, increase of the budget...) and make
+                                some decisions accordingly.</p>
+                        </div>
+                    </section>
+                    <section class="s_text_block o_colored_level pb0 pt72"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="s_allow_columns container" bis_skin_checked="1">
+                            <h2 class="o_default_snippet_text">
+                                <font class="text-o-color-1">2️⃣ Budgeting</font>
+
+
+                            </h2>
+                            <p style="text-align: justify;">As you create the phasing, it is
+                                essential to estimate a budget for each of the MVP/ 2nd Deployment.</p>
+
+
+                            <p style="text-align: justify;">The budget is a tool which will help the
+                                consultant to define what he will be able to deliver in the context
+                                of the project. The budget is always an estimation, no matter the
+                                level of analysis that was done, it is never a fixed price.
+                                Furthermore, you don’t have to implement everything the client wants
+                                inside the budget. In a lot of cases, the amount of hours taken by
+                                the client is not sufficient to implement a full scope. Prioritizing
+                                is thus very important!</p>
+
+
+                            <div data-oe-protected="true" role="status"
+                                class="o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-info pb-0 pt-3">
+                                <i class="o_editor_banner_icon mb-3 fst-normal"
+                                    aria-label="Banner Info">💡</i>
+                                <div data-oe-protected="false" class="w-100 ms-3">
+                                    <p style="text-align: justify;">The aims of budgeting are the
+                                        followings :</p>
+                                    <ul>
+                                        <li style="text-align: justify;">Monitor the project
+                                            evolution and to take decisions / challenge the customer</li>
+                                        <li style="text-align: justify;">Align Budget, Business
+                                            Analysis &amp; Customer expectations ; rather than
+                                            sticking to the initial plan. Reassess the plan if
+                                            needed !</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                            <p>Do not forget:</p>
+
+
+                            <ul>
+                                <li style="text-align: justify;">The budget and the planning should
+                                    be reassess if needed ; </li>
+                                <li style="text-align: justify;">1 hour = 100 €, money speaks for
+                                    itself and this perspective can be used to communicate with the
+                                    customer and challenge him if needed ;</li>
+                            </ul>
+                            <p>
+                                <br />
+                            </p>
+
+
+                            <h4 style="text-align: justify;">Budget tools</h4>
+
+
+                            <p style="text-align: justify;">There are 2 main approaches to budget a
+                                project.</p>
+                            <h5 style="text-align: justify;">
+                                <font class="text-o-color-1">​<span class="oe-tabs"
+                                        style="width: 10px; tab-size: 16.1932px;"> </span>​Bottom to
+                                    top</font>
+                            </h5>
+
+
+                            <p style="text-align: justify;">The goal is to anticipate the different
+                                tasks you'll have to do, compute how many hours you will need and
+                                fit this into your budget. </p>
+
+
+                            <p style="text-align: justify;">Here is a <a
+                                    href="/web/content/%(functional_training_data.attachment_template_phasing)d"
+                                    class="btn btn-secondary" data-bs-original-title="" title=""
+                                    target="_blank">tool</a> to help you.</p>
+                            <p style="text-align: justify;">
+                                <br />
+                            </p>
+
+
+                            <h5 style="text-align: justify;">Top to bottom</h5>
+
+
+                            <p style="text-align: justify;">The point here is to take the number of
+                                hours of the pack and to split it among the different phases. You
+                                then compute how many meetings per phase you would have, the time to
+                                prepare those meetings and the post meeting time (project management
+                                but also functional investigations). Finally, you see if the number
+                                of meetings is enough to cover the MVP you agreed on with the
+                                client. If it's not enough then it means that the number of hours is
+                                too low to implement the full scope of the project. You'll then have
+                                to set priorities!</p>
+
+                            <div data-oe-protected="true" role="status"
+                                class="o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-warning pb-0 pt-3">
+                                <i class="o_editor_banner_icon mb-3 fst-normal"
+                                    aria-label="Banner Warning">⚠️</i>
+                                <div data-oe-protected="false" class="w-100 ms-3">
+                                    <p style="text-align: justify;">You don't need to allocate all
+                                        the hours of the pack to the different phases. Keep some
+                                        buffer time. It can be used later for a Q&amp;A on other
+                                        apps or if you need some additional time for a phase. </p>
+                                    <p style="text-align: justify;">The opposite is true as well :
+                                        It's not because the client bought a 25 hour a pack that you
+                                        will be able to implement everything within that time.</p>
+                                </div>
+                            </div>
+
+
+                            <p>
+                                <a class="o_translate_inline btn btn-primary"
+                                    href="/web/content/%(functional_training_data.attachment_top_to_bottom_approach_example)d?download=true"
+                                    target="_blank">Example Video</a>
+                                <br />
+                            </p>
+                            <p>
+                                <u>Files used in the video :</u>
+                            </p>
+
+                            <p>
+                                <a class="btn btn-primary btn-sm"
+                                    href="/web/content/%(functional_training_data.attachment_top_to_bottom_example)d"
+                                    data-bs-original-title="" title="" target="_blank">Top to bottom
+                                    example</a>
+                            </p>
+
+                            <p class="o_default_snippet_text">
+                                <a class="btn btn-primary btn-sm"
+                                    href="/web/content/%(functional_training_data.attachment_project_agenda)d"
+                                    data-bs-original-title="" title="">Project agenda</a>
+                            </p>
+                        </div>
+                    </section>
+                    <section class="s_text_block o_colored_level pb0 pt72"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="container s_allow_columns" bis_skin_checked="1">
+                            <h2 class="o_default_snippet_text" style="text-align: justify;">
+                                <font class="text-o-color-1">3️⃣ Planning</font>
+
+
+                            </h2>
+                            <p style="text-align: justify;">Once your phasing is ready, you can plan
+                                it! How much time will each phase take ? It is important to estimate
+                                some dates in order to frame the project and set some time
+                                measures. </p>
+
+
+                            <p style="text-align: justify;">Note that adding some buffers and post
+                                go-live time is also important. Keep in mind that the planning will
+                                evolve throughout the project. You should stick to it, but sometimes
+                                we all know that some unexpected events will change your dates.
+                                Don’t be stressed about it! Just be transparent with your client if
+                                this changes!</p>
+
+                            <div data-oe-protected="true" role="status"
+                                class="o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-info pb-0 pt-3">
+                                <i class="o_editor_banner_icon mb-3 fst-normal"
+                                    aria-label="Banner Info">💡</i>
+                                <div data-oe-protected="false" class="w-100 ms-3">
+                                    <p style="text-align: justify;">Don't forget to anticipate
+                                        holidays. Add some buffer and post-go live time!</p>
+                                </div>
+                            </div>
+
+
+                            <p class="o_default_snippet_text">
+                                <br />
+                            </p>
+                        </div>
+                    </section>
+                    <section class="s_text_block o_colored_level pb0 pt0"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="s_allow_columns container" bis_skin_checked="1">
+
+                            <h4 class="o_default_snippet_text">Communicate about the phasing
+
+
+                            </h4>
+                            <p style="text-align: justify;">Communicating a timeline for a phasing
+                                is really important as it allows your customer to have the same
+                                vision as yours about his project and so having him more committed.</p>
+
+
+                            <p style="text-align: justify;">You will share the phasing, budget and
+                                planning of the project with your client in the second phase of the
+                                Kick off meeting. You will find more information regarding this in
+                                the next course.</p>
+
+                            <div data-oe-protected="true" role="status"
+                                class="o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-info pb-0 pt-3">
+                                <i class="o_editor_banner_icon mb-3 fst-normal"
+                                    aria-label="Banner Info">💡</i>
+                                <div data-oe-protected="false" class="w-100 ms-3">
+                                    <p>The phasing is a discussion between you and your customer.
+                                        You keep the lead on it but it’s important that the client
+                                        agrees on it and that (s)he understands the consequences of
+                                        it.</p>
+                                </div>
+                            </div>
+
+
+                            <p>
+                                <img />
+                                <img data-mimetype-before-conversion="image/png"
+                                    data-original-src="/web/image/%(functional_training_data.attachment_project_timeline)d"
+                                    data-original-id="%(functional_training_data.attachment_project_timeline)d"
+                                    data-mimetype="image/png"
+                                    loading="lazy"
+                                    src="/web/image/%(functional_training_data.attachment_project_timeline)d"
+                                    data-file-name="image.png" class="img-fluid"
+                                    data-attachment-id="%(functional_training_data.attachment_project_timeline)d"
+                                    style="" />
+                            </p>
+                        </div>
+                    </section>
+                    <section class="s_text_block o_colored_level pb0 pt8"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="container s_allow_columns" bis_skin_checked="1">
+                            <h4 class="o_default_snippet_text">How to deal with scope creep?
+
+
+                            </h4>
+                            <div data-oe-protected="true" role="status"
+                                class="o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-info pb-0 pt-3">
+                                <i class="o_editor_banner_icon mb-3 fst-normal"
+                                    aria-label="Banner Info">💡</i>
+                                <div data-oe-protected="false" class="w-100 ms-3">
+                                    <p>Scope creep definition : when your client adds more and more
+                                        features as meetings progress.</p>
+                                </div>
+                            </div>
+
+
+                            <p style="text-align: justify;">You'll notice it with some clients : as
+                                the meetings progress they add will more and more features for you
+                                to implement. This will enlarge the scope of the implementation, and
+                                eventually, you'll notice that you're not on on time and on budget
+                                anymore. First of all, the "<strong>ABC rule"</strong> (Always be
+                                Challenging) always applies! It's important for you to <strong>always
+                                challenge </strong>the request of the client.</p>
+
+
+                            <p class="o_default_snippet_text" style="text-align: justify;">Second
+                                point, if challenging the client is not working, just have a
+                                conversation with him/her about it. Tell them that if we keep going
+                                like this, we will not respect the budget and that it will have to
+                                be increased. Other option: we drop a few features.</p>
+                        </div>
+                    </section>
+                    <section class="s_text_block pt40 o_colored_level pb0"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="container s_allow_columns" bis_skin_checked="1">
+
+                            <h4 class="o_default_snippet_text" style="text-align: justify;">Where do
+                                we gather that information?
+
+
+                            </h4>
+                            <p style="text-align: justify;">Now that you did the phasing, the
+                                planning and the budget, the last thing to do is to put that
+                                information into Odoo. Here is an example on how to do it :</p>
+                            <ol>
+                                <li style="text-align: justify;">Your project can be automatically
+                                    generated from your service mentioned on your Sales
+                                    Order.</li>
+                                <li style="text-align: justify;">
+                                    <img />​Your project is created and it is also visible on your
+                                    customer’s portal. </li>
+                                <li style="text-align: justify;">​Start creating your projects tasks
+                                    : based on the project, one task will represent a phase, which
+                                    will be composed by a MVP, a second deployment or both. You can
+                                    also add a specific task for the kick off, import and go live
+                                    support.​ Make sure you are well assigned to this task</li>
+                            </ol>
+
+                            <ul>
+                                <li style="text-align: justify;">Add the estimated time of each
+                                    phase in the field “<strong>Allocated Time</strong>”</li>
+                                <li style="text-align: justify;">Add the <strong>planned
+                                        date </strong>(based on your planning) and the deadline
+                                    which should be your (forecasted) go-live date. </li>
+                                <li style="text-align: justify;">Make sure all the sub-tasks have a<em>
+                                    </em><strong>parent task</strong>
+                                    and a sale order line. </li>
+                            </ul>
+
+                            <p style="text-align: justify;"> 4. From this moment, the
+                                consultant will be able to timesheet his time on the Phase/MVP/2nd
+                                Deployment he is working on and do the follow-up of the project.</p>
+
+                            <p>
+                                <img
+                                    src="/web/image/%(functional_training_data.attachment_plo_project)d"
+                                    alt="" class="img-fluid img o_we_custom_image"
+                                    data-mimetype="image/webp"
+                                    data-original-id="%(functional_training_data.attachment_plo_project)d"
+                                    data-original-src="/web/image/%(functional_training_data.attachment_plo_project)d"
+                                    data-mimetype-before-conversion="image/png"
+                                    data-resize-width="928" loading="lazy"
+                                    data-attachment-id="%(functional_training_data.attachment_plo_project)d"
+                                    style="" />
+                            </p>
+                        </div>
+                    </section>
+                    <section data-name="Text" data-snippet="s_text_block"
+                        class="s_text_block o_colored_level pb0 pt0">
+                        <div class="container s_allow_columns">
+                            <p>
+                                <br />
+                            </p>
+                            <p>Now that you have all the information on the project and that you
+                                prepared the planning and budget, it's time to present it to the
+                                client</p>
+                            <div data-oe-protected="true" role="status"
+                                class="o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-info pb-0 pt-3">
+                                <grammarly-extension data-grammarly-shadow-root="true"
+                                    style="visibility: visible !important; position: absolute; top: -1px; left: -1px; pointer-events: none; --rem: 16;"
+                                    class="dnXmp"></grammarly-extension>
+                                <grammarly-extension data-grammarly-shadow-root="true"
+                                    style="visibility: visible !important; position: absolute; top: -1px; left: -1px; pointer-events: none; --rem: 16;"
+                                    class="dnXmp"></grammarly-extension>
+                                <i aria-label="Banner Info"
+                                    class="o_editor_banner_icon mb-3 fst-normal">💡</i>
+                                <div data-oe-protected="false" class="w-100 ms-3" spellcheck="false">
+                                    <p>Refer to those <a class="btn btn-secondary" title=""
+                                            data-bs-original-title=""
+                                            href="/web/content/%(functional_training_data.attachment_part_2_project_roadmap)d"
+                                            target="_blank">Slides</a> second to do your second
+                                        kick-off call.</p>
+                                </div>
+                                <grammarly-extension-vbars data-grammarly-shadow-root="true"
+                                    style="visibility: visible !important; display: contents; --rem: 16;"
+                                    class="dnXmp"></grammarly-extension-vbars>
+                            </div>
+                            <h4 class="o_default_snippet_text" style="text-align: justify;">
+                                <font class="text-o-color-1">How to complete those slides?</font>
+                            </h4>
+                        </div>
+                    </section>
+                    <section class="s_text_block pb40 o_colored_level pt0"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="container s_allow_columns">
+
+
+                            <div data-name="Accordion" class="s_accordion">
+                                <div id="myCollapse" class=" accordion">
+                                    <div class="accordion-item position-relative z-1"
+                                        data-name="Accordion Item">
+                                        <button type="button"
+                                            class="accordion-header accordion-button justify-content-between gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none collapsed"
+                                            data-bs-toggle="collapse" aria-expanded="false"
+                                            id="accordion-button498841_1"
+                                            data-bs-target="#myCollapseTab498841_1"
+                                            aria-controls="myCollapseTab498841_1">
+                                            <span class="flex-grow-1">Key Improvements</span>
+                                        </button>
+                                        <div class="accordion-collapse collapse"
+                                            data-bs-parent="#myCollapse" role="region"
+                                            id="myCollapseTab498841_1"
+                                            aria-labelledby="accordion-button498841_1">
+                                            <div class="accordion-body">
+                                                <p class="o_default_snippet_text"
+                                                    style="text-align: justify;">
+                                                    <strong>Why this slide?</strong>
+                                                </p>
+                                                <ul class="o_default_snippet_text">
+                                                    <li style="text-align: justify;">To identify the
+                                                        triggers to the motivation of the client</li>
+                                                    <li style="text-align: justify;">To create
+                                                        momentum</li>
+                                                    <li style="text-align: justify;">It's the answer
+                                                        to "Why Odoo?"</li>
+                                                    <li style="text-align: justify;">To tale a look
+                                                        at the global improvement we expect to bring
+                                                        to the project</li>
+                                                </ul>
+                                                <p class="o_default_snippet_text">
+                                                    <img class="img-fluid mx-auto d-block"
+                                                        data-file-name="image.png"
+                                                        src="/web/image/%(functional_training_data.attachment_key_improvements)d"
+                                                        loading="lazy" data-mimetype="image/png"
+                                                        data-original-id="%(functional_training_data.attachment_key_improvements)d"
+                                                        data-original-src="/web/image/%(functional_training_data.attachment_key_improvements)d"
+                                                        data-mimetype-before-conversion="image/png"
+                                                        data-resize-width="918"
+                                                        style="width: 100% !important; min-height: 1px;"
+                                                        data-attachment-id="%(functional_training_data.attachment_key_improvements)d" />
+                                                </p>
+                                                <p class="o_default_snippet_text"
+                                                    style="text-align: justify;">On this slides, you
+                                                    will write the key improvements that your client
+                                                    wants to achieve by implementing Odoo. For
+                                                    instance, it could be an improvement of the
+                                                    inventory process, becoming paperless, a better
+                                                    tracking of the financial flow, ... or not at
+                                                    the end of the implementation. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item position-relative z-1"
+                                        data-name="Accordion Item">
+                                        <button type="button"
+                                            class="accordion-header accordion-button justify-content-between gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none collapsed"
+                                            data-bs-toggle="collapse" aria-expanded="false"
+                                            id="accordion-button498841_2"
+                                            data-bs-target="#myCollapseTab498841_2"
+                                            aria-controls="myCollapseTab498841_2">
+                                            <span class="flex-grow-1">Validation of the flows</span>
+                                        </button>
+                                        <div class="accordion-collapse collapse"
+                                            data-bs-parent="#myCollapse" role="region"
+                                            id="myCollapseTab498841_2"
+                                            aria-labelledby="accordion-button498841_2">
+                                            <div class="accordion-body">
+                                                <p class="o_default_snippet_text"
+                                                    style="text-align: justify;">As you prepared the
+                                                    flowchart of the processes of your client after
+                                                    the first kick-off call, it is now time to
+                                                    validate these flows with your client.
+                                                    Validating the flows is important as it will be
+                                                    your basis for the configuration and
+                                                    implementation of Odoo. This slide will make
+                                                    sure we have a correct understanding of the
+                                                    processes to design an Odoo solution that fit
+                                                    the client's requirements. You will then review
+                                                    it quickly with the client to make sure nothing
+                                                    important is missing. </p>
+                                                <p class="o_default_snippet_text">
+                                                    <img class="img-fluid mx-auto d-block"
+                                                        data-file-name="image.png"
+                                                        src="/web/image/%(functional_training_data.attachment_validation_of_your_flows)d"
+                                                        loading="lazy" data-mimetype="image/webp"
+                                                        data-original-id="%(functional_training_data.attachment_validation_of_your_flows)d"
+                                                        data-original-src="/web/image/%(functional_training_data.attachment_validation_of_your_flows)d"
+                                                        data-mimetype-before-conversion="image/png"
+                                                        data-resize-width="928"
+                                                        data-attachment-id="%(functional_training_data.attachment_validation_of_your_flows)d"
+                                                        style="min-height: 1px;" />
+                                                    <br />
+                                                </p>
+                                                <p class="o_default_snippet_text">
+                                                    <br />
+                                                </p>
+                                                <p>
+                                                    <br />
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item position-relative z-1"
+                                        data-name="Accordion Item">
+                                        <button type="button"
+                                            class="accordion-header accordion-button justify-content-between gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none collapsed"
+                                            data-bs-toggle="collapse" aria-expanded="false"
+                                            id="accordion-button498841_3"
+                                            data-bs-target="#myCollapseTab498841_3"
+                                            aria-controls="myCollapseTab498841_3">
+                                            <span class="flex-grow-1">Focus Impact</span>
+                                        </button>
+                                        <div class="accordion-collapse collapse"
+                                            data-bs-parent="#myCollapse" role="region"
+                                            id="myCollapseTab498841_3"
+                                            aria-labelledby="accordion-button498841_3">
+                                            <div class="accordion-body">
+                                                <p class="o_default_snippet_text"
+                                                    style="text-align: justify;">From the business
+                                                    needs identified, you need to determine the ones
+                                                    that will have the biggest positive impact on
+                                                    the company and, thus, will be implemented
+                                                    first. </p>
+                                                <ul class="o_default_snippet_text">
+                                                    <li style="text-align: justify;">The added value
+                                                        for the company: represents the ability for
+                                                        your employee to do more in less time</li>
+                                                    <li style="text-align: justify;">The ease of
+                                                        transformation: how fast or easy it is
+                                                        to digitize the process to get potential
+                                                        impact</li>
+                                                </ul>
+                                                <p class="o_default_snippet_text"
+                                                    style="text-align: justify;">We can identify 4
+                                                    types of impact: </p>
+                                                <ul class="o_default_snippet_text">
+                                                    <li style="text-align: justify;"><strong>Game
+                                                        changer</strong>: the implementation of this
+                                                        flow will be more complex and/or take a lot
+                                                        of time. But it will have a high positive
+                                                        impact on the company. You need to consider
+                                                        to implement this flow while planning enough
+                                                        time for it. </li>
+                                                    <li style="text-align: justify;"><strong>Quick
+                                                        Win</strong>: Implementing this flow is
+                                                        quite easy and has an high added value for
+                                                        the company. You should definitely start by
+                                                        implementing these flows. </li>
+                                                    <li style="text-align: justify;"><strong>Fine
+                                                        tuning</strong>: These are flows easy to
+                                                        implement but with a low impact on the
+                                                        company. These should be kept of the end of
+                                                        the implementation if the client is willing
+                                                        to go further in the functionalities. </li>
+                                                    <li style="text-align: justify;"><strong>To
+                                                            avoid</strong>: The impact of these
+                                                        flows is low for the company and they are
+                                                        difficult to put in place. As the name
+                                                        indicates, you should avoid implementing it.</li>
+                                                </ul>
+                                                <div
+                                                    class="o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-info pb-0 pt-3"
+                                                    role="status" data-oe-protected="true">
+                                                    <i class="o_editor_banner_icon mb-3 fst-normal"
+                                                        aria-label="Banner Info">💡</i>
+                                                    <div class="w-100 ms-3"
+                                                        data-oe-protected="false">
+                                                        <p style="text-align: justify;">Good to
+                                                            know: the size of the bubbles represent
+                                                            the number of employees impacted by the
+                                                            implementation of this flow in
+                                                            Odoo. </p>
+                                                    </div>
+                                                </div>
+                                                <p style="text-align: justify;">
+                                                    <img
+                                                        class="img-fluid" data-file-name="image.png"
+                                                        src="/web/image/%(functional_training_data.attachment_focus_impact)d"
+                                                        loading="lazy" data-mimetype="image/png"
+                                                        data-original-id="%(functional_training_data.attachment_focus_impact)d"
+                                                        data-original-src="/web/image/%(functional_training_data.attachment_focus_impact)d"
+                                                        data-mimetype-before-conversion="image/png"
+                                                        data-attachment-id="%(functional_training_data.attachment_focus_impact)d"
+                                                        style="min-height: 1px;" />
+                                                </p>
+                                                <p>
+                                                    <strong>Why this slide?</strong>
+                                                </p>
+                                                <ul>
+                                                    <li>To share our vision of the risks and
+                                                        leverage points for the project</li>
+                                                    <li>To decide what we should prioritize</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item position-relative z-1"
+                                        data-name="Accordion Item">
+                                        <button type="button"
+                                            class="accordion-header accordion-button justify-content-between gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none collapsed"
+                                            data-bs-toggle="collapse" aria-expanded="false"
+                                            id="myCollapseBtn1749021673720"
+                                            data-bs-target="#myCollapseTab1749021673719"
+                                            aria-controls="myCollapseTab1749021673719">
+                                            <span class="flex-grow-1">Project Timeline</span>
+                                        </button>
+                                        <div class="accordion-collapse collapse"
+                                            data-bs-parent="#myCollapse" role="region"
+                                            id="myCollapseTab1749021673719"
+                                            aria-labelledby="myCollapseBtn1749021673720">
+                                            <div class="accordion-body">
+                                                <p>This plan will present the phasing of your
+                                                    project with the deadlines and hours assigned to
+                                                    each phase. </p>
+                                                <p>Make sure that the client validates this
+                                                    phasing. </p>
+                                                <p>
+                                                    <img class="img-fluid mx-auto d-block"
+                                                        data-file-name="image.png"
+                                                        src="/web/image/%(functional_training_data.attachment_project_timeline_1)d"
+                                                        loading="lazy" data-mimetype="image/png"
+                                                        data-original-id="%(functional_training_data.attachment_project_timeline_1)"
+                                                        data-original-src="/web/image/%(functional_training_data.attachment_project_timeline_1)"
+                                                        data-mimetype-before-conversion="image/png"
+                                                        data-attachment-id="%(functional_training_data.attachment_project_timeline_1)"
+                                                        style="min-height: 1px;" />
+                                                </p>
+                                                <h4>
+                                                    <br />
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item position-relative z-1"
+                                        data-name="Accordion Item">
+                                        <button type="button"
+                                            class="accordion-header accordion-button justify-content-between gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none collapsed"
+                                            data-bs-toggle="collapse" aria-expanded="false"
+                                            id="myCollapseBtn1749021724604"
+                                            data-bs-target="#myCollapseTab1749021724603"
+                                            aria-controls="myCollapseTab1749021724603">
+                                            <span class="flex-grow-1">How do we work together?</span>
+                                        </button>
+                                        <div class="accordion-collapse collapse"
+                                            data-bs-parent="#myCollapse" role="region"
+                                            id="myCollapseTab1749021724603"
+                                            aria-labelledby="myCollapseBtn1749021724604">
+                                            <div class="accordion-body">
+                                                <p>This slide will focus on the collaboration on the
+                                                    project with the client to ensure a good project
+                                                    velocity. This presents how you and your client
+                                                    are going to work together and how you will
+                                                    share the tasks. The purpose is to work step by
+                                                    step and keep a high pace in order to deliver
+                                                    the quickest result possible. After a moment,
+                                                    you will freeze the configurations and the
+                                                    improvements in order to prepare the go live.</p>
+                                                <div
+                                                    class="o_editor_banner o_not_editable lh-1 d-flex align-items-center alert alert-info pb-0 pt-3"
+                                                    role="status" data-oe-protected="true">
+                                                    <i class="o_editor_banner_icon mb-3 fst-normal"
+                                                        aria-label="Banner Info">💡</i>
+                                                    <div class="w-100 ms-3"
+                                                        data-oe-protected="false">
+                                                        <p>If you are working in a pure Q&amp;A
+                                                            methodology, adapt the slide
+                                                            accordingly. </p>
+                                                    </div>
+                                                </div>
+                                                <p>
+                                                    <img class="img-fluid mx-auto d-block"
+                                                        data-file-name="image.png"
+                                                        src="/web/image/%(functional_training_data.attachment_how_do_we_work_together)d"
+                                                        loading="lazy" style="min-height: 1px;" />
+                                                    <br />
+                                                </p>
+                                                <h4>
+                                                    <br />
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>
+                                <br />
+                            </p>
+                            <section data-name="Text" data-snippet="s_text_block"
+                                class="s_text_block o_colored_level pt0 pb0">
+                                <div class="s_allow_columns container">
+                                    <h4>
+                                        <font class="text-o-color-1">A few words about project
+                                            documentation in Odoo</font>
+                                    </h4>
+                                    <p>All the documentation will be gathered in Odoo. You have to
+                                        advise your client to install the knowledge application to
+                                        keep track of the flows implemented and train the end-users.</p>
+                                    <p>On our side, we also gather all the information on the
+                                        project inside an Odoo project that will be shared with the
+                                        client. This call is also the opportunity to show this
+                                        platform and the way you organize to the client. </p>
+                                    <p>You can also show the client's portal. In this portal, your
+                                        client will have access to:</p>
+                                    <ul>
+                                        <li>The timesheet day</li>
+                                        <li>The Odoo project</li>
+                                        <li>The support tickets</li>
+                                        <li>The invoices, quotations, ...</li>
+                                    </ul>
+                                    <blockquote
+                                        class="s_blockquote s_blockquote_with_line o_cc o_cc2 o_animable position-relative d-flex flex-column gap-4 w-100 mx-auto p-4 fst-normal oe_snippet_body o_colored_level"
+                                        data-vcss="001" data-snippet="s_blockquote"
+                                        data-name="Blockquote" data-o-mail-quote-node="1"
+                                        data-o-mail-quote="1">
+                                        <div
+                                            class="s_blockquote_line_elt position-absolute top-0 start-0 bottom-0 bg-o-color-1"></div>
+                                        <div
+                                            class="s_blockquote_wrap_icon position-absolute top-0 start-50 translate-middle w-100">
+                                            <i
+                                                class="s_blockquote_icon fa fa-quote-right d-block mx-auto rounded bg-o-color-1"
+                                                role="img"></i>
+                                        </div>
+                                        <h5 class="s_blockquote_quote my-auto">Why should you
+                                            document your projects?</h5>
+                                        <p class="s_blockquote_quote my-auto">The project
+                                            documentation is a series of documents directly embedded
+                                            or linked in the project tasks. This gives you full
+                                            traceability of your project. Even though documenting
+                                            can seem tedious and time-consuming, good project
+                                            documentation is helpful in a lot of situations.</p>
+                                        <p class="s_blockquote_quote my-auto">It is useful:</p>
+                                        <ul class="s_blockquote_quote my-auto">
+                                            <li>In your daily work</li>
+                                            <li>If the SPoC/Ambassador changes</li>
+                                            <li>If the Project Leader/Consultant changes</li>
+                                        </ul>
+                                    </blockquote>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </field>
+    </record>
+
+    <record id="slide_sessione_10_resource_oim" model="slide.slide.resource">
+        <field name="slide_id" ref="slide_sessione_12" />
+        <field name="name">[SESSION] project/ phasing/ budget</field>
+        <field name="resource_type">file</field>
+        <field name="data" type="base64"
+            file="functional_training_data/static/files/project_phasing_budgeting_and_planning.pptx" />
+    </record>
+
+    <!-- ========================================================= -->
+    <!-- SESSIONE 13                                               -->
+    <!-- ========================================================= -->
+
+    <record id="slide_sessione_13" model="slide.slide">
+
+        <field name="name">Session 13 : Droneland - Roadmap</field>
+
+        <field name="channel_id"
+            ref="partner_bootcamp" />
+
+        <field name="slide_category">article</field>
+
+        <field name="sequence">15</field>
+
+        <field name="is_published">True</field>
+
+        <field name="html_content" type="html">
+            <div
+                class="o_wslides_fs_content align-items-stretch justify-content-center d-flex flex-grow-1 order-2">
+                <div class="o_wslide_fs_article_content bg-white block w-100 overflow-auto p-3">
+                    <br />
+                    <br />
+                    <section
+                        class="s_kickoff o_cc o_cc5 parallax s_parallax_is_fixed s_parallax_no_overflow_hidden pb88 o_colored_level pt96"
+                        data-scroll-background-ratio="1"
+                        data-oe-shape-data="{&quot;shape&quot;:&quot;html_builder/Connections/06&quot;,&quot;colors&quot;:{&quot;c5&quot;:&quot;o-color-4&quot;},&quot;flip&quot;:[],&quot;showOnMobile&quot;:false,&quot;shapeAnimationSpeed&quot;:&quot;0&quot;,&quot;selectedColor&quot;:true}"
+                        data-snippet="s_kickoff" data-name="Kickoff">
+                        <span
+                            class="s_parallax_bg oe_img_bg o_bg_img_center o_bg_img_origin_border_box"
+                            style="background-image: url(&quot;/web/image/%(functional_training_data.attachment_drone)d&quot;) !important;"></span>
+                        <div class="o_we_bg_filter bg-black-50"></div>
+                        <div class="container">
+                            <h1 class="display-1" style="text-align: center;">Droneland</h1>
+                        </div>
+                    </section>
+                    <p>
+                        <br />
+                    </p>
+                    <h1 style="text-align: center;">Your time to shine 🌟</h1>
+                    <p class="lead">To prepare for your Project Roadmap session with the customer:</p>
+                    <ul>
+                        <li style="text-align: center;">
+                            <span class="lead">Think of a proper roadmap for your Droneland project,
+                                using your common sense and reviewing the tips and best practices
+                                shared in <strong>
+                                    <a
+                                        href="/slides/slide/session-12-project-roadmap-%(functional_training_data.slide_sessione_12)d?fullscreen=1">Session
+                                12: Project Roadmap</a>
+                                </strong></span>
+                        </li>
+                        <li style="text-align: center;">
+                            <span class="lead">Use the official <strong>
+                                    <a
+                                        href="/web/content/%(functional_training_data.attachment_part_2_project_roadmap)d">Roadmap
+                                presentation</a>
+                                </strong> to present
+                                the roadmap of the project to Droneland</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </field>
+    </record>
+
+    <!-- ========================================================= -->
+    <!-- SESSIONE 14                                               -->
+    <!-- ========================================================= -->
+
+    <record id="slide_sessione_14" model="slide.slide">
+
+        <field name="name">Session 14 : Droneland - MVP1</field>
+
+        <field name="channel_id"
+            ref="partner_bootcamp" />
+
+        <field name="slide_category">article</field>
+
+        <field name="sequence">16</field>
+
+        <field name="is_published">True</field>
+
+        <field name="html_content" type="html">
+            <div
+                class="o_wslides_fs_content align-items-stretch justify-content-center d-flex flex-grow-1 order-2">
+                <div class="o_wslide_fs_article_content bg-white block w-100 overflow-auto p-3">
+                    <br />
+                    <section
+                        class="s_cover parallax s_parallax_is_fixed o_cc o_cc5 o_colored_level pb128 pt152"
+                        data-scroll-background-ratio="1" data-snippet="s_cover" data-name="Cover">
+                        <span
+                            class="s_parallax_bg oe_img_bg o_bg_img_center o_bg_img_origin_border_box"
+                            style="background-position: 50% 75%; background-image: url(&quot;/web/image/%(functional_training_data.attachment_drone)d&quot;) !important;"></span>
+                        <div class="o_we_bg_filter bg-black-50"></div>
+                        <div class="container s_allow_columns">
+                            <h1 class="display-1" style="text-align: center;">Droneland <br /></h1>
+                        </div>
+                    </section>
+                    <section class="s_text_block o_colored_level pb0 pt0"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="s_allow_columns container">
+                            <p class="o_default_snippet_text">
+                                <font class="text-o-color-1">​</font>
+                                <br />
+                            </p>
+                            <h1 style="text-align: center;">Your time to shine 🌟</h1>
+                            <p class="o_default_snippet_text" style="margin-bottom: 0px;">
+                                <br />
+                            </p>
+                            <p>Now that the first phase of your project is defined, it’s time to
+                                present the process flows of this phase to your customer. Keep these
+                                tips in mind:</p>
+                            <ul>
+                                <li>
+                                    <strong>Tell a user story</strong>: Use real customer data and
+                                    refer to actual users by name. Put yourself in the shoes of one
+                                    user at a time to make the flow relatable and concrete. </li>
+                                <li>
+                                    <strong>Start with the result</strong>: Show the final outcome
+                                    first. Dive into the configurations only after the customer has
+                                    validated the flow—this might not happen in the same session. </li>
+                                <li>
+                                    <strong>Be prepared</strong>: Expect some resistance from the
+                                    customer, both to change in general and to the specific solution
+                                    you’re proposing.</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <p style="margin-bottom: 0px;"> </p>
+                    <p style="margin-bottom: 0px;">
+                        <br />
+                    </p>
+                </div>
+            </div>
+        </field>
+    </record>
+
+    <!-- ========================================================= -->
+    <!-- SESSIONE 15                                               -->
+    <!-- ========================================================= -->
+
+    <record id="slide_sessione_15" model="slide.slide">
+
+        <field name="name">Session 15 : Droneland - Challenge the customer and progress report</field>
+
+        <field name="channel_id"
+            ref="partner_bootcamp" />
+
+        <field name="slide_category">article</field>
+
+        <field name="sequence">17</field>
+
+        <field name="is_published">True</field>
+
+        <field name="html_content" type="html">
+            <div
+                class="o_wslides_fs_content align-items-stretch justify-content-center d-flex flex-grow-1 order-2">
+                <div class="o_wslide_fs_article_content bg-white block w-100 overflow-auto p-3">
+                    <section class="s_text_block pt40 pb40 o_colored_level"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="container s_allow_columns">
+                            <p>
+                                <img
+                                    src="/web/image/%(functional_training_data.attachment_methodo)d"
+                                    alt="" class="img img-fluid o_we_custom_image mx-auto d-block"
+                                    data-mimetype="image/png"
+                                    data-original-id="%(functional_training_data.attachment_methodo)d"
+                                    data-original-src="/web/image/%(functional_training_data.attachment_methodo)d"
+                                    data-mimetype-before-conversion="image/png" loading="lazy"
+                                    data-attachment-id="%(functional_training_data.attachment_methodo)d"
+                                    style="" />
+                            </p>
+                        </div>
+                    </section>
+                    <section class="s_text_block pt40 o_colored_level pb0"
+                        data-snippet="s_text_block" data-name="Text">
+                        <div class="container s_allow_columns">
+                            <h1 style="text-align: center;">
+                                <font style="font-size: 48px;" class="text-o-color-2">Progress
+                                    Report</font>
+                                <br />
+                            </h1>
+                            <p>
+                                <br />
+                            </p>
+                        </div>
+                    </section>
+                    <section class="s_shape_image pt32 pb32 o_colored_level"
+                        data-snippet="s_shape_image" data-name="Shape image">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-5 pt16 pb16 o_colored_level">
+                                    <img class="img img-fluid"
+                                        data-shape="html_builder/composite/composite_double_pill"
+                                        data-file-name="s_shape_image_default_image.jpg"
+                                        src="/web/image/%(functional_training_data.attachment_composite_double_pill)d"
+                                        alt="" loading="lazy" data-mimetype="image/svg+xml"
+                                        data-original-id="%(functional_training_data.attachment_composite_double_pill)d"
+                                        data-original-src="/website/static/src/img/snippets_demo/s_shape_image_default_image.jpg"
+                                        data-mimetype-before-conversion="image/jpeg"
+                                        data-attachment-id="%(functional_training_data.attachment_composite_double_pill)d"
+                                        data-format-mimetype="image/jpeg" style="" />
+                                </div>
+                                <div class="col-lg-6 offset-lg-1 pt16 pb16 o_colored_level">
+                                    <h2 class="h3-fs">Where are we?</h2>
+                                    <p>At project milestones, when we feel the project
+                                        needs it, or at the end of the project, we usually present a
+                                        progress report to the customer. </p>
+                                    <p>This allows to align on the current situation: budget,
+                                        planning, errors and improvements in collaboration, and
+                                        future opportunities.</p>
+                                    <p>Read the Odoo Implementation Methodology Book <strong>from
+                                        page 30 to 32 </strong>to discover more about this amazing
+                                        tool. </p>
+                                    <p class="lead" style="text-align: center;">
+                                        <a
+                                            href="/web/content/%(functional_training_data.attachment_odoo_implementation_methodology)d"
+                                            class="btn btn-secondary">OIM Book</a>
+                                    </p>
+                                    <p>
+                                        <em>(oh! and </em>
+                                        <a
+                                            href="/web/content/%(functional_training_data.attachment_partner_template_progress_report)d"
+                                            target="_blank">
+                                            <font class="bg-o-color-3">
+                                                <font class="text-o-color-2">
+                                                    <font class="bg-o-color-1">
+                                                        <u>
+                                                            <strong>here</strong>
+                                                        </u>
+                                                    </font>
+                                                </font>
+                                            </font>
+                                            <em> </em>
+                                        </a>
+                                        <em>is
+                                            a more up to date presentation than the one in the book,
+                                            just for you)</em>
+                                        <br />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="s_title pt40 o_colored_level undefined o_cc o_cc1 pb0"
+                        data-name="The Virtual Roadshow You Shouldn&amp;#x27;t Miss">
+                        <div class="s_allow_columns container">
+                            <h1 style="text-align: center;">
+                                <font class="text-o-color-2" style="font-size: 48px;">Challenge the
+                                    customer</font>
+                            </h1>
+                        </div>
+                    </section>
+                    <section class="s_text_image pt80 pb80 o_colored_level"
+                        data-snippet="s_text_image" data-name="Text - Image">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="pt16 pb16 o_colored_level col-lg-5">
+                                    <h2 class="h3-fs">
+                                        <i>"I want this! I am the customer, I decide!"</i>
+                                    </h2>
+                                    <p class="lead">Multiple times during a project, you will have
+                                        to challenge your customer to decide whether what they are
+                                        asking is a <strong>must have</strong>, or a <strong>nice to
+                                        have. </strong></p>
+                                    <p style="margin-bottom: 0px;" class="lead">To understand how to
+                                        deal with customers'specific demands, read <strong>page
+                                            40-46</strong> of the Odoo Implementation Methodology
+                                        book.</p>
+                                    <p style="margin-bottom: 0px; text-align: center;">
+                                        <br />
+                                        <a class="o_translate_inline btn btn-secondary"
+                                            href="/web/content/%(functional_training_data.attachment_odoo_implementation_methodology)d">OIM
+                                            Book</a>
+                                        <br />
+                                    </p>
+                                </div>
+                                <div class="col-lg-6 offset-lg-1 pt16 pb16 o_colored_level">
+                                    <img
+                                        src="/web/image/%(functional_training_data.attachment_angry_customer)d"
+                                        alt="man holding telephone screaming"
+                                        class="img img-fluid mx-auto rounded o_we_custom_image"
+                                        loading="lazy" style="" />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section
+                        class="s_kickoff o_cc o_cc5 parallax s_parallax_is_fixed s_parallax_no_overflow_hidden pb88 o_colored_level pt120"
+                        data-scroll-background-ratio="1"
+                        data-oe-shape-data="{&quot;shape&quot;:&quot;html_builder/Connections/06&quot;,&quot;colors&quot;:{&quot;c5&quot;:&quot;o-color-4&quot;},&quot;flip&quot;:[],&quot;showOnMobile&quot;:false,&quot;shapeAnimationSpeed&quot;:&quot;0&quot;,&quot;selectedColor&quot;:true}"
+                        data-snippet="s_kickoff" data-name="Kickoff">
+                        <span class="s_parallax_bg oe_img_bg"
+                            style="background-image: url('/web/image/%(functional_training_data.attachment_s_kickoff_default_image)d');"></span>
+                        <div class="o_we_bg_filter bg-black-50"></div>
+                        <div class="container">
+
+                            <h1 class="display-1" style="text-align: center;">Droneland</h1>
+                        </div>
+                    </section>
+                    <section class="s_text_block pt40 pb40 o_colored_level undefined o_cc o_cc1"
+                        data-name="Introduction text">
+                        <div class="s_allow_columns container">
+                            <h1 style="text-align: center;">Your time to shine 🌟</h1>
+                            <p>
+                                <font style="font-size: 18px;">
+                                    <strong>Challenge the customer: get ready for your Droneland
+                                        meeting</strong>
+                                </font>
+                                <br />
+                            </p>
+                            <p class="lead">Your SPOC is requesting a development :</p>
+                            <table class="table table-bordered o_table">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <p class="lead">For cyprus customers, the payment terms
+                                                need to be calculated as follows: <br />Date of the
+                                                invoice + initial payment terms - days delayed to
+                                                pay previous invoice (if any). <br /><br /> Ex: </p>
+                                            <table class="table table-bordered o_table">
+                                                <tbody>
+                                                    <tr style="height: 57px;">
+                                                        <td>
+                                                            <p class="lead">
+                                                                <em>
+                                                                    <br />
+                                                                </em>
+                                                            </p>
+                                                        </td>
+                                                        <td>
+                                                            <p class="lead">
+                                                                <em>
+                                                                    <strong>Invoice 1</strong>
+                                                                </em>
+                                                            </p>
+                                                        </td>
+                                                        <td>
+                                                            <p class="lead">
+                                                                <em>
+                                                                    <strong>Invoice 2</strong>
+                                                                </em>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr style="height: 57px;">
+                                                        <td>
+                                                            <p class="lead">
+                                                                <em>
+                                                                    <strong>Invoice date</strong>
+                                                                </em>
+                                                            </p>
+                                                        </td>
+                                                        <td>
+                                                            <p class="lead">
+                                                                <em>15/4/2025</em>
+                                                            </p>
+                                                        </td>
+                                                        <td>
+                                                            <p class="lead">
+                                                                <em>15/05</em>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr style="height: 57px;">
+                                                        <td>
+                                                            <p class="lead">
+                                                                <em>
+                                                                    <strong>Initial payment terms</strong>
+                                                                </em>
+                                                            </p>
+                                                        </td>
+                                                        <td>
+                                                            <p class="lead">
+                                                                <em>15 days</em>
+                                                            </p>
+                                                        </td>
+                                                        <td>
+                                                            <p class="lead">
+                                                                <em>15 days</em>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr style="height: 81px;">
+                                                        <td>
+                                                            <p class="lead">
+                                                                <em>
+                                                                    <strong>Due date</strong>
+                                                                </em>
+                                                            </p>
+                                                        </td>
+                                                        <td>
+                                                            <p class="lead">
+                                                                <em>15/04/2025 + 15 days = 01/5/2025</em>
+                                                            </p>
+                                                        </td>
+                                                        <td>
+                                                            <p class="lead">
+                                                                <strong>
+                                                                    <em>
+                                                                        <font
+                                                                            style="color: rgb(41, 82, 24);">15/05/2025
+                                                                            + 15 days - 3 days =
+                                                                            27/05/2025</font>
+                                                                    </em>
+                                                                </strong>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr style="height: 57px;">
+                                                        <td>
+                                                            <p class="lead">
+                                                                <em>
+                                                                    <strong>Effective payment date</strong>
+                                                                </em>
+                                                            </p>
+                                                        </td>
+                                                        <td>
+                                                            <p class="lead">
+                                                                <em>04/05/2025</em>
+                                                            </p>
+                                                        </td>
+                                                        <td>
+                                                            <p class="lead">
+                                                                <em>
+                                                                    <br />
+                                                                </em>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr style="height: 53.5938px;">
+                                                        <td>
+                                                            <p class="lead">
+                                                                <em>
+                                                                    <strong>Delay</strong>
+                                                                </em>
+                                                            </p>
+                                                        </td>
+                                                        <td>
+                                                            <p class="lead">
+                                                                <em>3 days</em>
+                                                            </p>
+                                                        </td>
+                                                        <td>
+                                                            <p class="lead">
+                                                                <em>
+                                                                    <br />
+                                                                </em>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p class="lead">
+                                                <br />
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p class="lead">What can you do to :</p>
+                            <ol>
+                                <li>
+                                    <span class="lead">Define whether this request is a <strong>must
+                                        have</strong> or a <strong>nice to have</strong>?</span>
+                                </li>
+                                <li>
+                                    <span class="lead">
+                                        <span class="lead">Prevent them from doing this development
+                                            now, if it's not a must have? </span>
+                                    </span>
+                                </li>
+                            </ol>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="attachment_allbike" model="ir.attachment">
+        <field name="name">AllBike.jpeg</field>
+        <field name="mimetype">image/jpeg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/AllBike.jpeg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_bike_mtn" model="ir.attachment">
+        <field name="name">bike mtn.webp</field>
+        <field name="mimetype">image/webp</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/bike mtn.webp" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_bike_2_mtn" model="ir.attachment">
+        <field name="name">bike2mtn.webp</field>
+        <field name="mimetype">image/webp</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/bike2mtn.webp" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_cbike" model="ir.attachment">
+        <field name="name">C-Bike.jpeg</field>
+        <field name="mimetype">image/jpeg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/C-Bike.jpeg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_crm" model="ir.attachment">
+        <field name="name">crm.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/crm.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_ebike" model="ir.attachment">
+        <field name="name">E-Bike.jpeg</field>
+        <field name="mimetype">image/jpeg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/E-Bike.jpeg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_fbike" model="ir.attachment">
+        <field name="name">F-Bike.jpeg</field>
+        <field name="mimetype">image/jpeg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/F-Bike.jpeg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_invoicemtn" model="ir.attachment">
+        <field name="name">invoicemtn.webp</field>
+        <field name="mimetype">image/webp</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/invoicemtn.webp" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_invoicing" model="ir.attachment">
+        <field name="name">invoicing.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/invoicing.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_reportingimage" model="ir.attachment">
+        <field name="name">REPORTINGIMAGE.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/REPORTINGIMAGE.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_sales" model="ir.attachment">
+        <field name="name">sales.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/sales.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_unsplash_bike_girl" model="ir.attachment">
+        <field name="name">unsplash_bike girl.jpg</field>
+        <field name="mimetype">image/jpg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/unsplash_bike girl.jpg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_vroombike" model="ir.attachment">
+        <field name="name">VroomBike.jpeg</field>
+        <field name="mimetype">image/jpeg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/VroomBike.jpeg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_catalogue" model="ir.attachment">
+        <field name="name">catalogue.docx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.wordprocessingml.document</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/catalogue.docx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_icon_hi" model="ir.attachment">
+        <field name="name">icon-hi.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/icon-hi.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_icon_hi_1" model="ir.attachment">
+        <field name="name">icon-hi (1).png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/icon-hi (1).png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_icon_hi_2" model="ir.attachment">
+        <field name="name">icon-hi (2).png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/icon-hi (2).png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_runbike-43" model="ir.attachment">
+        <field name="name">runbike-43.webp</field>
+        <field name="mimetype">image/webp</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/runbike-43.webp" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_reparimtn" model="ir.attachment">
+        <field name="name">repairmtn.webp</field>
+        <field name="mimetype">image/webp</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/repairmtn.webp" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_reapir4" model="ir.attachment">
+        <field name="name">reapir4.webp</field>
+        <field name="mimetype">image/webp</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/reapir4.webp" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_icon_hi_3" model="ir.attachment">
+        <field name="name">icon-hi (3).png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/icon-hi (3).png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_icon_hi_4" model="ir.attachment">
+        <field name="name">icon-hi (4).png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/icon-hi (4).png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_icon_hi_5" model="ir.attachment">
+        <field name="name">icon-hi (5).png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/icon-hi (5).png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_s_media_list_default_image_1" model="ir.attachment">
+        <field name="name">s_media_list_default_image_1.jpg</field>
+        <field name="mimetype">image/jpg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/s_media_list_default_image_1.jpg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_s_media_list_default_image_2" model="ir.attachment">
+        <field name="name">s_media_list_default_image_2.jpg</field>
+        <field name="mimetype">image/jpg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/s_media_list_default_image_2.jpg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_s_media_list_default_image_3" model="ir.attachment">
+        <field name="name">s_media_list_default_image_3.jpg</field>
+        <field name="mimetype">image/jpg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/s_media_list_default_image_3.jpg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_icon_hi_6" model="ir.attachment">
+        <field name="name">icon-hi (6).png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/icon-hi (6).png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_icon_hi_7" model="ir.attachment">
+        <field name="name">icon-hi (7).png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/icon-hi (7).png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_odoo_hn" model="ir.attachment">
+        <field name="name">Odoo-HN.webp</field>
+        <field name="mimetype">image/webp</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/Odoo-HN.webp" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_bank_payment" model="ir.attachment">
+        <field name="name">bank_payment.jpg</field>
+        <field name="mimetype">image/jpg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/bank_payment.jpg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_proximus" model="ir.attachment">
+        <field name="name">proximus.pdf</field>
+        <field name="mimetype">application/pdf</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/proximus.pdf" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_engie" model="ir.attachment">
+        <field name="name">engie.pdf</field>
+        <field name="mimetype">application/pdf</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/engie.pdf" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_coolblue" model="ir.attachment">
+        <field name="name">coolblue.pdf</field>
+        <field name="mimetype">application/pdf</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/coolblue.pdf" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_methodo" model="ir.attachment">
+        <field name="name">methodo.webp</field>
+        <field name="mimetype">image/webp</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/methodo.webp" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_implem" model="ir.attachment">
+        <field name="name">implem.webp</field>
+        <field name="mimetype">image/webp</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/implem.webp" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_implem_methodo" model="ir.attachment">
+        <field name="name">implem_methodo.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/implem_methodo.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_implementation_methodology" model="ir.attachment">
+        <field name="name">implementation_methodology.pdf</field>
+        <field name="mimetype">application/pdf</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/implementation_methodology.pdf" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_odoo_implementation_methodology" model="ir.attachment">
+        <field name="name">odoo_implementation_methodology.pdf</field>
+        <field name="mimetype">application/pdf</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/odoo_implementation_methodology.pdf" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_implem_2" model="ir.attachment">
+        <field name="name">implem2.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/implem2.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_part_1_alignment_business_analysis" model="ir.attachment">
+        <field name="name">part_1_alignment_business_analysis.pptx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.presentationml.presentation</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/part_1_alignment_business_analysis.pptx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_business" model="ir.attachment">
+        <field name="name">business.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/business.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_person_vertical" model="ir.attachment">
+        <field name="name">person_vertical.jpg</field>
+        <field name="mimetype">image/jpg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/person_vertical.jpg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_person_vertical_1" model="ir.attachment">
+        <field name="name">person_vertical (1).jpg</field>
+        <field name="mimetype">image/jpg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/person_vertical (1).jpg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_person_vertical_2" model="ir.attachment">
+        <field name="name">person_vertical (2).jpg</field>
+        <field name="mimetype">image/jpg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/person_vertical (2).jpg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_person_vertical_3" model="ir.attachment">
+        <field name="name">person_vertical (3).jpg</field>
+        <field name="mimetype">image/jpg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/person_vertical (3).jpg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_lets_prepare_your_implementation" model="ir.attachment">
+        <field name="name">lets_prepare_your_implementation.pdf</field>
+        <field name="mimetype">application/pdf</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/lets_prepare_your_implementation.pdf" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_drone" model="ir.attachment">
+        <field name="name">drone.jpg</field>
+        <field name="mimetype">image/jpg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/drone.jpg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_project_alignment" model="ir.attachment">
+        <field name="name">project_alignment.pptx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.presentationml.presentation</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/project_alignment.pptx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_project_phasing_budgeting_and_planning" model="ir.attachment">
+        <field name="name">project_phasing_budgeting_and_planning.pptx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.presentationml.presentation</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/project_phasing_budgeting_and_planning.pptx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_template_phasing" model="ir.attachment">
+        <field name="name">template_phasing.xlsx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/template_phasing.xlsx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_top_to_bottom_approach_example" model="ir.attachment">
+        <field name="name">top_to_bottom_approach_example.mp4</field>
+        <field name="mimetype">video/mp4</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/top_to_bottom_approach_example.mp4" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_top_to_bottom_example" model="ir.attachment">
+        <field name="name">top_to_bottom_example.docx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.wordprocessingml.document</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/top_to_bottom_example.docx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_project_agenda" model="ir.attachment">
+        <field name="name">project_agenda.docx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.wordprocessingml.document</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/project_agenda.docx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_project_timeline" model="ir.attachment">
+        <field name="name">project_timeline.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/project_timeline.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_plo_project" model="ir.attachment">
+        <field name="name">plo_project.webp</field>
+        <field name="mimetype">image/webp</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/plo_project.webp" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_part_2_project_roadmap" model="ir.attachment">
+        <field name="name">part_2_project_roadmap.pptx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.presentationml.presentation</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/part_2_project_roadmap.pptx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_key_improvements" model="ir.attachment">
+        <field name="name">key_improvements.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/key_improvements.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_validation_of_your_flows" model="ir.attachment">
+        <field name="name">validation_of_your_flows.webp</field>
+        <field name="mimetype">image/webp</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/validation_of_your_flows.webp" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_focus_impact" model="ir.attachment">
+        <field name="name">focus_impact.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/focus_impact.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_project_timeline_1" model="ir.attachment">
+        <field name="name">project_timeline (1).png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/project_timeline (1).png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_how_do_we_work_together" model="ir.attachment">
+        <field name="name">how_do_we_work_together.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/how_do_we_work_together.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_composite_double_pill" model="ir.attachment">
+        <field name="name">composite_double_pill.svg</field>
+        <field name="mimetype">image/svg+xml</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/composite_double_pill.svg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_partner_template_progress_report" model="ir.attachment">
+        <field name="name">partner_template_progress_report.pptx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.presentationml.presentation</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/partner_template_progress_report.pptx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_angry_customer" model="ir.attachment">
+        <field name="name">angry_customer.jpg</field>
+        <field name="mimetype">image/jpg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/angry_customer.jpg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_s_kickoff_default_image" model="ir.attachment">
+        <field name="name">s_kickoff_default_image.jpg</field>
+        <field name="mimetype">image/jpg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/s_kickoff_default_image.jpg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_studio" model="ir.attachment">
+        <field name="name">studio.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/studio.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_using_studio_introduction_views" model="ir.attachment">
+        <field name="name">using_studio_introduction_views.pptx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.presentationml.presentation</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/using_studio_introduction_views.pptx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_using_studio_introduction_views_video" model="ir.attachment">
+        <field name="name">using_studio_introduction_views_video.mp4</field>
+        <field name="mimetype">video/mp4</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/using_studio_introduction_views_video.mp4" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_basic_advanced_technico_functional_knowledge_exercise" model="ir.attachment">
+        <field name="name">basic_advanced_technico_functional_knowledge_exercise.pptx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.presentationml.presentation</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/basic_advanced_technico_functional_knowledge_exercise.pptx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_parrot_jungle" model="ir.attachment">
+        <field name="name">parrot_jungle.jpg</field>
+        <field name="mimetype">image/jpg</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/parrot_jungle.jpg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_download" model="ir.attachment">
+        <field name="name">download.gif</field>
+        <field name="mimetype">image/gif</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/download.gif" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_person_download" model="ir.attachment">
+        <field name="name">person_download.webp</field>
+        <field name="mimetype">image/webp</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/person_download.webp" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_saas" model="ir.attachment">
+        <field name="name">saas.webp</field>
+        <field name="mimetype">image/webp</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/saas.webp" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_paas" model="ir.attachment">
+        <field name="name">paas.webp</field>
+        <field name="mimetype">image/webp</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/paas.webp" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_iaas" model="ir.attachment">
+        <field name="name">iaas.webp</field>
+        <field name="mimetype">image/webp</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/iaas.webp" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_implementation_scheme" model="ir.attachment">
+        <field name="name">implementation_scheme.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/implementation_scheme.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_odoo_sh" model="ir.attachment">
+        <field name="name">odoo_sh.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/odoo_sh.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_builds" model="ir.attachment">
+        <field name="name">builds.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/builds.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_odoo_sh_logo" model="ir.attachment">
+        <field name="name">odoo_sh_logo.webp</field>
+        <field name="mimetype">image/webp</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/odoo_sh_logo.webp" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_rainy" model="ir.attachment">
+        <field name="name">rainy.svg</field>
+        <field name="mimetype">image/svg+xml</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/rainy.svg" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_partner_studio_odoo" model="ir.attachment">
+        <field name="name">partner_studio_odoo.pptx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.presentationml.presentation</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/partner_studio_odoo.pptx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_how_to_write_a_good_spec" model="ir.attachment">
+        <field name="name">how_to_write_a_good_spec.pptx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.presentationml.presentation</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/how_to_write_a_good_spec.pptx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_writing_a_good_spec" model="ir.attachment">
+        <field name="name">writing_a_good_spec.pptx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.presentationml.presentation</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/writing_a_good_spec.pptx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_work_routine_schema" model="ir.attachment">
+        <field name="name">work_routine_schema.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/work_routine_schema.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_technical_names" model="ir.attachment">
+        <field name="name">technical_names.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/technical_names.png" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_s_carousel_default_image_1" model="ir.attachment">
+        <field name="name">s_carousel_default_image_1.webp</field>
+        <field name="mimetype">image/webp</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/s_carousel_default_image_1.webp" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_how_to_create_an_import_template" model="ir.attachment">
+        <field name="name">how_to_create_an_import_template.webm</field>
+        <field name="mimetype">video/webm</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/how_to_create_an_import_template.webm" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_best_practices_import" model="ir.attachment">
+        <field name="name">best_practices_import.docx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.wordprocessingml.document</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/best_practices_import.docx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_partner_import_file_companies" model="ir.attachment">
+        <field name="name">partner_import_file_companies.xlsx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/partner_import_file_companies.xlsx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_partner_import_file_products" model="ir.attachment">
+        <field name="name">partner_import_file_products.xlsx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/partner_import_file_products.xlsx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_partner_import_file_contacts" model="ir.attachment">
+        <field name="name">partner_import_file_contacts.xlsx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/partner_import_file_contacts.xlsx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_partner_onboarding_exercices" model="ir.attachment">
+        <field name="name">partner_onboarding_exercices.xlsx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/partner_onboarding_exercices.xlsx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_partners_inventory_adjustment" model="ir.attachment">
+        <field name="name">partners_inventory_adjustment.xlsx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/partners_inventory_adjustment.xlsx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_opening_balance_import_guide" model="ir.attachment">
+        <field name="name">opening_balance_import_guide.docx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.wordprocessingml.document</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/opening_balance_import_guide.docx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_reporting_spreadsheet_dashboard_exercises" model="ir.attachment">
+        <field name="name">reporting_spreadsheet_dashboard_exercises.pptx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.presentationml.presentation</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/reporting_spreadsheet_dashboard_exercises.pptx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_roi_analysis_template" model="ir.attachment">
+        <field name="name">roi_analysis_template.xlsx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/roi_analysis_template.xlsx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_roi_tool_user_guide" model="ir.attachment">
+        <field name="name">roi_tool_user_guide.pptx</field>
+        <field name="mimetype">application/vnd.openxmlformats-officedocument.presentationml.presentation</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/files/roi_tool_user_guide.pptx" />
+        <field name="public" eval="True" />
+    </record>
+    <record id="attachment_project_estimator" model="ir.attachment">
+        <field name="name">project_estimator.png</field>
+        <field name="mimetype">image/png</field>
+        <field name="datas" type="base64"
+            file="functional_training_data/static/attachments/project_estimator.png" />
+        <field name="public" eval="True" />
+    </record>
+</odoo>
